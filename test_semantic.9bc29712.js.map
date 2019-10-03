@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":["alert"],"mappings":";AAAAA,MAAM","file":"test_semantic.9bc29712.js","sourceRoot":"..","sourcesContent":["alert(\"a\");"]}
