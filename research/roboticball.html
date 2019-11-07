@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shuehi Tsuchida</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.css">
+    <!-- <Link rel="stylesheet" type="text/css" href="../style.css"> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49751274-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49751274-1');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+    <style type="text/css">
+        .movie-wrap {
+            position: relative;
+            padding-bottom: 56.25%;
+            /*アスペクト比 16:9の場合の縦幅*/
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .movie-wrap iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .masthead.segment {
+            min-height: 300px;
+            padding: 1em 0em;
+        }
+        
+        .masthead .logo.item img {
+            margin-right: 0.5em;
+        }
+        
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+        
+        .masthead h1.ui.header {
+            margin-top: 2em;
+            margin-bottom: 0em;
+            font-size: 2.5em;
+            font-weight: normal;
+        }
+        
+        .masthead h2 {
+            font-size: 1.5em;
+            font-weight: normal;
+            margin-bottom: 3em;
+        }
+        
+        .ui.vertical.stripe {
+            padding: 5em 0em;
+        }
+        
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+        
+        .ui.vertical.stripe .button+h3,
+        .ui.vertical.stripe p+h3 {
+            margin-top: 3em;
+        }
+        
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+        
+        .ui.vertical.stripe p {
+            font-size: 1.33em;
+        }
+        
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 3em 0em;
+        }
+        
+        .quote.stripe.segment {
+            padding: 0em;
+        }
+        
+        .quote.stripe.segment .grid .column {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+        
+        .footer.segment {
+            padding: 5em 0em;
+        }
+        
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
+        
+        @media only screen and (max-width: 700px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+            .masthead.segment {
+                min-height: 350px;
+            }
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Contents -->
+    <div class="pusher">
+        <div class="ui inverted vertical masthead center aligned segment">
+            <div class="ui inverted left aligned segment">
+                <div class="ui inverted button">
+                    <a href="../index.html">Home </a>
+                </div>
+            </div>
+            <div class="ui text container">
+                <h1 class="ui inverted header">A Dance Performance Environment in which Performers Dance with Multiple Robotic Balls </h1>
+                <h2 class="ui inverted header">Shuehi Tsuchida,
+                    <a href="http://ubi.eedept.kobe-u.ac.jp">Tsutomu Terada</a>,
+                    <a href="http://cse.eedept.kobe-u.ac.jp/tuka-e.html">Masahiko Tsukamoto</a>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </h2>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="ui vertical stripe segment">
+            <div class="ui text container">
+                <div class="ui fluid image">
+                    <img src="../images/roboticball.gif">
+                </div>
+                <br>
+                <br>
+                <div class="ui fluid image">
+                    <img src="../images/simulator.gif">
+                </div>
+
+                <h3 class="ui header">Abstract
+                </h3>In recent years, as robotics technology progresses, various mobile robots have been developed to dance with humans. However, up until now there have been no system for interactively creating a performance using multiple mobile robots.
+                Therefore, performance using multiple mobile robots is still difficult. In this study, we construct a mechanism by which a performer can interactively create a performance while he/she considers the correspondence between his/her motion
+                and the mobile robots' movement and light. Specifically, we developed a system that enables performers to freely create performances with multiple robotics balls that can move omunidirectionnally and have full color LEDs. Performers can
+                design both the movements of the robotic balls and the colors of the LEDs. To evaluate the effectiveness of the system, we had four performers use the system to create and demonstrate performances. Moreover, we confirmed that the system
+                performed reliably in a real environment.
+
+
+                <h3 class="ui header">Performance at ACE2016
+                </h3>
+                <div class="movie-wrap">
+                    <iframe src="https://player.vimeo.com/video/163912403" width="672" height="378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                <h3 class="ui header">Concept
+                </h3>
+                <div class="movie-wrap">
+                    <iframe width="672" height="378" src="https://www.youtube.com/embed/uDZJ3WkOPIY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <h3 class="ui header">Simulator(Japanese)
+                </h3>
+                <div class="movie-wrap">
+                    <iframe width="672" height="378" src="https://www.youtube.com/embed/Qxhw2_qt2SM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+
+                <h4 class="ui header">User Study(Poppin)
+                </h4>
+                <div class="movie-wrap">
+                    <iframe width="672" height="378" src="https://www.youtube.com/embed/21Ehl7dX3OU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <ol class="ui list">
+                    <li value="*">Performer
+                        <ol>
+                            <li value="-">Fire </li>
+                        </ol>
+                    </li>
+                </ol>
+                <h4 class="ui horizontal header divider">LINKS
+                </h4>
+                <div class="ui center aligned container">
+                    <div class="ui huge horizontal divided list">
+                        <div class="item">
+                            <i class="file pdf icon"></i>
+                            <a href="../pdf/ah2016_preprint.pdf">Paper </a>
+                        </div>
+                        <div class="item">
+                            <i class="linkify icon"></i>
+                            <a href="https://doi.org/10.1145/2875194.2875219">DOI </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <hr>
+                <h3 class="ui header">PerMo
+                </h3>We created a new robotic ball "PerMo".
+                <h4 class="ui header">Performance Summary
+                </h4>
+                <div class="movie-wrap">
+                    <iframe width="672" height="378" src="https://www.youtube.com/embed/ujN4OdDQ6Vs?start=7" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <h4 class="ui header">Mime x PerMo
+                </h4>
+                <div class="movie-wrap">
+                    <iframe width="672" height="378" src="https://www.youtube.com/embed/oZS6fJZtXwY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <ol class="ui list">
+                    <li value="*">Performer
+                        <ol>
+                            <li value="-">
+                                <a href="http://mime1166.com/">Naoki Iimuro</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li value="*">Robots and Programming
+                        <ol>
+                            <li value="-">Shuhei Tsuchida</li>
+                            <li value="-">
+                                <a href="https://qiita.com/tomochiii">Keita Tomochika</a>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+                <h4 class="ui header">Contemporary dance x PerMo
+                </h4>
+                <div class="movie-wrap">
+                    <iframe width="672" height="378" src="https://www.youtube.com/embed/MaWFJXWYPEg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <ol class="ui list">
+                    <li value="*">Performer
+                        <ol>
+                            <li value="-">Rizumu Masuda</li>
+                        </ol>
+                    </li>
+                </ol>
+                <h4 class="ui header">Rhythmic Gymnastics x PerMo
+                </h4>
+                <div class="movie-wrap">
+                    <iframe width="672" height="378" src="https://www.youtube.com/embed/ZVfOakPE718" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <ol class="ui list">
+                    <li value="*">Performer
+                        <ol>
+                            <li value="-">
+                                <a href="https://twitter.com/kei_okei_k_ok">Kei Asanuma</a>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+                <hr>
+                <h3 class="ui header">Presentation
+                    </h4>
+                    <h4 class="ui header">2014MITOU Final Reports (Japanese)
+                    </h4>
+                    <div class="movie-wrap">
+                        <iframe width="672" height="378" src="https://www.youtube.com/embed/deL_cknbyM0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="ui vertical footer segment">
+        <div class="ui center aligned container">
+            <small>&copy; 2014-2018 Shuhei Tsuchida </small>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shuehi Tsuchida</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.css">
+    <!-- <Link rel="stylesheet" type="text/css" href="../style.css"> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49751274-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49751274-1');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+    <style type="text/css">
+        .movie-wrap {
+            position: relative;
+            padding-bottom: 56.25%;
+            /*アスペクト比 16:9の場合の縦幅*/
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .movie-wrap iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .masthead.segment {
+            min-height: 300px;
+            padding: 1em 0em;
+        }
+        
+        .masthead .logo.item img {
+            margin-right: 0.5em;
+        }
+        
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+        
+        .masthead h1.ui.header {
+            margin-top: 2em;
+            margin-bottom: 0em;
+            font-size: 2.5em;
+            font-weight: normal;
+        }
+        
+        .masthead h2 {
+            font-size: 1.5em;
+            font-weight: normal;
+            margin-bottom: 3em;
+        }
+        
+        .ui.vertical.stripe {
+            padding: 5em 0em;
+        }
+        
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+        
+        .ui.vertical.stripe .button+h3,
+        .ui.vertical.stripe p+h3 {
+            margin-top: 3em;
+        }
+        
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+        
+        .ui.vertical.stripe p {
+            font-size: 1.33em;
+        }
+        
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 3em 0em;
+        }
+        
+        .quote.stripe.segment {
+            padding: 0em;
+        }
+        
+        .quote.stripe.segment .grid .column {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+        
+        .footer.segment {
+            padding: 5em 0em;
+        }
+        
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
+        
+        @media only screen and (max-width: 700px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+            .masthead.segment {
+                min-height: 350px;
+            }
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Contents -->
+
+    <div class="ui inverted vertical masthead center aligned segment">
+        <div class="ui inverted left aligned segment">
+            <div class="ui inverted button">
+                <a href="../index.html">Home </a>
+            </div>
+        </div>
+        <div class="ui text container">
+            <h1 class="ui inverted header">Query-by-Dancing: <br>A Dance Music Retrieval System<br> Based on Body-Motion Similarity</h1>
+            <h2 class="ui inverted header">Shuhei Tsuchida,
+                <a href="https://sites.google.com/view/sfukayama">Satoru Fukayama</a>,
+                <a href="https://staff.aist.go.jp/m.goto/">Masataka Goto</a>
+                <br>
+                <br>
+                <br>
+                <br>
+            </h2>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="ui vertical stripe segment">
+
+        <div class="ui text container">
+            <div class="ui fluid image">
+                <img src="../images/query.gif">
+            </div>
+
+            <h3 class="ui header">Abstract</h3>
+            This paper presents Query-by-Dancing, a dance music retrieval system that enables a user to retrieve music using dance motions. When dancers search for music to play when dancing, they sometimes find it by referring to online dance videos in which the
+            dancers use motions similar to their own dance. However, previous music retrieval systems could not support retrieval specialized for dancing because they do not accept dance motions as a query. Therefore, we developed our Query-by-Dancing
+            system, which uses a video of a dancer (user) as the input query to search a database of dance videos. The query video is recorded using an ordinary RGB camera that does not obtain depth information, like a smartphone camera. The poses and
+            motions in the query are then analyzed and used to retrieve dance videos with similar poses and motions. The system then enables the user to browse the music attached to the videos it retrieves so that the user can find a piece that is appropriate
+            for their dancing. An interesting problem here is that a simple search for the most similar videos based on dance motions sometimes includes results that do not match the intended dance genre. We solved this by using a novel measure similar
+            to tf-idf to weight the importance of dance motions when retrieving videos. We conducted comparative experiments with 4 dance genres and confirmed that the system gained an average of 3 or more evaluation points for 3 dance genres (waack,
+            pop, break) and that our proposed method was able to deal with different dance genres.
+
+            <!-- <div class="ui image">
+          <img src="../images/query_by_dancing_fig.png">
+          </div> -->
+
+            <h4 class="ui horizontal header divider">Slide</h4>
+            <div class="ui center aligned container">
+                <iframe src="//www.slideshare.net/slideshow/embed_code/key/1mwbStygEvSwpX" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+                <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ShuheiTsuchida/querybydancing-a-dance-music-retrieval-system-based-on-bodymotion-similarity" title="Query-by-Dancing: A Dance Music Retrieval System Based on Body-Motion Similarity" target="_blank">Query-by-Dancing: A Dance Music Retrieval System Based on Body-Motion Similarity</a> </strong>                    from <strong><a href="https://www.slideshare.net/ShuheiTsuchida" target="_blank">Shuhei Tsuchida</a></strong> </div>
+            </div>
+
+            <h4 class="ui horizontal header divider">VIDEO</h4>
+            <div class="movie-wrap">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/t5azn3nk-NI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <h4 class="ui horizontal header divider">ARTICLE</h4>
+            <div class="ui bulleted list">
+                <div class="item">Seamless: 産総研、ダンス動画を入力に、ダンス楽曲を検索できる楽曲検索システム「Query-by-Dancing」を発表(10/02/2018).
+                    <a href="https://shiropen.com/seamless/query-by-dancing">[LINK]</a>
+                </div>
+            </div>
+
+            <h4 class="ui horizontal header divider">LINKS </h4>
+            <div class="ui center aligned container">
+                <div class="ui huge horizontal divided list">
+                    <div class="item">
+                        <i class="file pdf icon"></i>
+                        <a href="pdf/mmm-query-by-dancing.pdf"> Paper </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <h4 class="ui horizontal header divider">REFERENCE</h4>
+
+            <ol>
+                <li>S. Tsuchida, S. Fukayama, M. Goto: Query-by-Dancing: A Dance Music Retrieval System Based on Body-Motion Similarity, Proc. of the 25h International Conference on Multimedia Modeling (MMM2019), pp. 251—263 (Dec. 2018). </li>
+            </ol>
+
+        </div>
+    </div>
+
+    <div class="ui vertical footer segment">
+        <div class="ui center aligned container">
+            <small>&copy; 2014-2018 Shuhei Tsuchida </small>
+        </div>
+    </div>
+
+    <script>
+        $('.special.cards .image').dimmer({
+            on: 'hover'
+        });
+        $(document)
+            .ready(function() {
+                $('.ui.menu .ui.dropdown').dropdown({
+                    on: 'hover'
+                });
+                $('.ui.menu a.item')
+                    .on('click', function() {
+                        $(this)
+                            .addClass('active')
+                            .siblings()
+                            .removeClass('active');
+                    });
+            });
+    </script>
+</body>
+
+</html>

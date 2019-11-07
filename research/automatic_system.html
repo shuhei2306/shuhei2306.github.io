@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shuehi Tsuchida</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.css">
+    <!-- <Link rel="stylesheet" type="text/css" href="../style.css"> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49751274-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49751274-1');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+    <style type="text/css">
+        .movie-wrap {
+            position: relative;
+            padding-bottom: 56.25%;
+            /*アスペクト比 16:9の場合の縦幅*/
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .movie-wrap iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .masthead.segment {
+            min-height: 300px;
+            padding: 1em 0em;
+        }
+        
+        .masthead .logo.item img {
+            margin-right: 0.5em;
+        }
+        
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+        
+        .masthead h1.ui.header {
+            margin-top: 2em;
+            margin-bottom: 0em;
+            font-size: 2.5em;
+            font-weight: normal;
+        }
+        
+        .masthead h2 {
+            font-size: 1.5em;
+            font-weight: normal;
+            margin-bottom: 3em;
+        }
+        
+        .ui.vertical.stripe {
+            padding: 5em 0em;
+        }
+        
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+        
+        .ui.vertical.stripe .button+h3,
+        .ui.vertical.stripe p+h3 {
+            margin-top: 3em;
+        }
+        
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+        
+        .ui.vertical.stripe p {
+            font-size: 1.33em;
+        }
+        
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 3em 0em;
+        }
+        
+        .quote.stripe.segment {
+            padding: 0em;
+        }
+        
+        .quote.stripe.segment .grid .column {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+        
+        .footer.segment {
+            padding: 5em 0em;
+        }
+        
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
+        
+        @media only screen and (max-width: 700px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+            .masthead.segment {
+                min-height: 350px;
+            }
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Contents -->
+
+    <div class="ui inverted vertical masthead center aligned segment">
+        <div class="ui inverted left aligned segment">
+            <div class="ui inverted button">
+                <a href="../index.html">Home </a>
+            </div>
+        </div>
+        <div class="ui text container">
+            <h1 class="ui inverted header">Automatic System for Editing Dance Videos Recorded by Multiple Cameras </h1>
+            <h2 class="ui inverted header">Shuehi Tsuchida,
+                <a href="https://sites.google.com/view/sfukayama">Satoru Fukayama</a>,
+                <a href="https://staff.aist.go.jp/m.goto/">Masataka Goto</a>
+                <br>
+                <br>
+                <br>
+                <br>
+            </h2>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="ui vertical stripe segment">
+
+        <div class="ui text container">
+            <div class="ui fluid image">
+                <img src="../images/beatcut.gif">
+            </div>
+
+            <h3 class="ui header">Interface</h3>
+
+            <h4 class="ui header">概要</h4>自動編集機能を活用することで，動画編集の専門知識がなくとも簡単に魅力的なダンス 動画を作成できる多視点ダンス動画のインタラクティブ編集システムを提案する．ダンサーは，パラメータ を調整することで，自身の目的に応じた動画に自動で編集させることができる．また，動画編集の原則に基 づいて決定されたカメラの優先選択度をヒートマップとして提示することで，カメラ選択を音楽の 1 拍ご とに修正して好みのダンス動画を制作できる．さらに，被写体とカメラの距離が近いほど画面上側に，遠い
+            ほど画面下側に並び替えられており，全体を俯瞰することで近い，遠い映像の割合を容易に確認することが できる．自動編集機能の有効性を評価実験を通して確認し，本提案システムの必要性を確認した．
+            <div class="movie-wrap">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IzhDQhCcnx4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <h4 class="ui horizontal header divider">LINKS </h4>
+            <div class="ui center aligned container">
+                <div class="ui huge horizontal divided list">
+                    <div class="item">
+                        <i class="file pdf icon"></i>
+                        <a href="http://www.wiss.org/WISS2017Proceedings/oral/08.pdf">Paper </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr>
+
+            <h3 class="ui header">Automatically Editing</h3>
+            <div class="ui center aligned stackable container">
+                <div class="movie-wrap">
+                    <iframe width="672" height="378" src="https://www.youtube.com/embed/HEDfxt7GyLs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+            <h4 class="ui header">Abstract</h4>We present a system that automatically edits dance-performance videos taken from multiple viewpoints into a more attractive and sophisticated dance video. Our system can crop the frame of each camera appropriately by using the
+            performer’s behavior and skeleton information. The system determines the camera switches and cut lengths following a probabilistic model of general cinematography guidelines and of knowledge extracted from expert experience
+            <h4 class="ui horizontal header divider">LINKS </h4>
+            <div class="ui center aligned container">
+                <div class="ui huge horizontal divided list">
+                    <div class="item">
+                        <i class="file pdf icon"></i>
+                        <a href="../pdf/ace2017_preview.pdf">Paper </a>
+                    </div>
+                    <div class="item">
+                        <i class="linkify icon"></i>
+                        <a href="https://doi.org/10.1007/978-3-319-76270-8_47">DOI </a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <hr>
+
+        </div>
+    </div>
+
+    <hr>
+    <div class="ui vertical footer segment">
+        <div class="ui center aligned container">
+            <small>&copy; 2014-2018 Shuhei Tsuchida </small>
+        </div>
+    </div>
+
+    <script>
+        $('.special.cards .image').dimmer({
+            on: 'hover'
+        });
+        $(document)
+            .ready(function() {
+                $('.ui.menu .ui.dropdown').dropdown({
+                    on: 'hover'
+                });
+                $('.ui.menu a.item')
+                    .on('click', function() {
+                        $(this)
+                            .addClass('active')
+                            .siblings()
+                            .removeClass('active');
+                    });
+            });
+    </script>
+</body>
+
+</html>

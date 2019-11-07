@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shuehi Tsuchida</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.css">
+    <Link rel="stylesheet" type="text/css" href="../style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49751274-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49751274-1');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+    <style type="text/css">
+        .movie-wrap {
+            position: relative;
+            padding-bottom: 56.25%;
+            /*アスペクト比 16:9の場合の縦幅*/
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .movie-wrap iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .masthead.segment {
+            min-height: 300px;
+            padding: 1em 0em;
+        }
+        
+        .masthead .logo.item img {
+            margin-right: 0.5em;
+        }
+        
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+        
+        .masthead h1.ui.header {
+            margin-top: 2em;
+            margin-bottom: 0em;
+            font-size: 2.5em;
+            font-weight: normal;
+        }
+        
+        .masthead h2 {
+            font-size: 1.5em;
+            font-weight: normal;
+            margin-bottom: 3em;
+        }
+        
+        .ui.vertical.stripe {
+            padding: 5em 0em;
+        }
+        
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+        
+        .ui.vertical.stripe .button+h3,
+        .ui.vertical.stripe p+h3 {
+            margin-top: 3em;
+        }
+        
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+        
+        .ui.vertical.stripe p {
+            font-size: 1.33em;
+        }
+        
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 3em 0em;
+        }
+        
+        .quote.stripe.segment {
+            padding: 0em;
+        }
+        
+        .quote.stripe.segment .grid .column {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+        
+        .footer.segment {
+            padding: 5em 0em;
+        }
+        
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
+        
+        @media only screen and (max-width: 700px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+            .masthead.segment {
+                min-height: 350px;
+            }
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Contents -->
+    <div class="pusher">
+        <div class="ui inverted vertical masthead center aligned segment">
+            <div class="ui inverted left aligned segment">
+                <div class="ui inverted button">
+                    <a href="../index.html">Home </a>
+                </div>
+            </div>
+            <div class="ui text container">
+                <h1 class="ui inverted header">Other Works</h1>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="ui vertical stripe segment">
+            <div class="ui text container">
+                This page introduces works that are not related to research.
+                <br>
+                <br>
+                <div class="ui four stackable link cards">
+                    <a class="red card" href="#songlesync">
+                        <div class="content">
+                            <div class="ui center aligned tiny header">LED suits for SongleSync </div>
+                        </div>
+                    </a>
+                    <a class="red card" href="#kasanete">
+                        <div class="content">
+                            <div class="ui center aligned tiny header">KASANETE MAP </div>
+                        </div>
+                    </a>
+                    <a class="red card" href="#wearable">
+                        <div class="content">
+                            <div class="ui center aligned tiny header">Wearable Darumasan </div>
+                        </div>
+                    </a>
+                    <a class="red card" href="#ivrc">
+                        <div class="content">
+                            <div class="ui center aligned tiny header">IVRC2015 </div>
+                        </div>
+                    </a>
+                    <a class="red card" href="#curtain">
+                        <div class="content">
+                            <div class="ui center aligned tiny header">Curtain Performance </div>
+                        </div>
+                    </a>
+                    <a class="red card" href="#led">
+                        <div class="content">
+                            <div class="ui center aligned tiny header">LED Performance </div>
+                        </div>
+                    </a>
+                    <a class="red card" href="#ice">
+                        <div class="content">
+                            <div class="ui center aligned tiny header">Ice Sparkler </div>
+                        </div>
+                    </a>
+                    <a class="red card" href="#galaxy">
+                        <div class="content">
+                            <div class="ui center aligned tiny header">Galaxy Donation Box </div>
+                        </div>
+                    </a>
+                    <a class="red card" href="#wood">
+                        <div class="content">
+                            <div class="ui center aligned tiny header">Wood Lamp </div>
+                        </div>
+                    </a>
+                    <a class="red card" href="#zazen">
+                        <div class="content">
+                            <div class="ui center aligned tiny header">ZAZEN app </div>
+                        </div>
+                    </a>
+                    <a class="red card" href="#wii">
+                        <div class="content">
+                            <div class="ui center aligned tiny header">Wii Balanceboard </div>
+                        </div>
+                    </a>
+                </div>
+                <br>
+                <hr>
+                <h3 class="ui header" id="songlesync">LED suits for
+                    <a href="http://api.songle.jp/sync">SongleSync</a>
+                </h3>
+                <div class="movie-wrap">
+                    <iframe width="672" height="378" src="https://www.youtube.com/embed/kN63Am1EpoA?start=87" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <h5 class="ui center aligned header">
+                    <div class="sub header">Aug. 2018</div>
+                </h5>
+
+                <br>
+                <br>
+                <hr>
+                <h3 class="ui header" id="kasanete">KASANETE MAP</h3>
+                You can overlay the road that you have passed so far on a map. You can guess a distance from the road you usually pass.
+                <h3 class="ui header"></h3>
+                <div class="movie-wrap">
+                    <iframe src="https://player.vimeo.com/video/163912612" width="384" height="682" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+
+                <h5 class="ui center aligned header">
+                    <div class="sub header">Oct. 2015</div>
+                </h5>
+
+                <br>
+                <br>
+                <hr>
+                <h3 class="ui header" id="wearable">ウェアラブルだるまさんがころんだ</h3>ゼミ旅行のドクター企画。その時のドクターたちで作ってみたもの。 ダルマさんが転んだのアウト/セーフ判定を機械がしてくれる。 お腹にスマホを装着していて、加速度センサから動きを検出、アウトかセーフかの判定をしている。
+                <a href="http://cse.eedept.kobe-u.ac.jp/blog/?p=3778">[Blog]</a>
+                <br>三木隆裕，大西鮎美，出口嵐以貴，土田修平，伊藤悠真，寺田 努，塚本昌彦: ウェアラブルだるまさんがころんだ: 加速度センサによる機械判定を用いた多人数型ゲームの実装と運用, エンタテインメントコンピューティング2017論文集, No. 30, pp. 174--183 (Sep. 2017).
+                <h3 class="ui header"></h3>
+                <img class="ui centered medium image" src="../images/daruma.jpg">
+                <h3 class="ui header"></h3>
+                <div class="ui center aligned grid">
+                    <h5 class="ui header">
+                        <div class="sub header">Sep. 2015</div>
+                    </h5>
+                </div>
+                <br>
+                <br>
+                <hr>
+                <h3 class="ui header" id="ivrc">Relationship between body and sphere</h3>You can play with shiny spheres by using your shadow. I exhibited this work at IVRC 2015.
+                <a href="https://www.moguravr.com/ivrc2015-kouhen/">[Article]</a>
+
+                <h3 class="ui header"></h3>
+
+                <div class="movie-wrap">
+                    <iframe src="https://player.vimeo.com/video/163912573" width="672" height="378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+
+                <h5 class="ui center aligned header">
+                    <div class="sub header">Sep. 2014</div>
+                </h5>
+
+                <br>
+                <br>
+                <hr>
+                <h3 class="ui header" id="curtain">Performance using curtain tracks</h3>The shadow of the performer walks between the spectators.
+                <a href="http://cse.eedept.kobe-u.ac.jp/blog/?p=3107">[Blog]</a>
+                <h3 class="ui header"></h3>
+                <img class="ui centered medium image" src="../images/curtain.png">
+                <div class="ui center aligned grid">
+                    <h5 class="ui header">
+                        <br>
+                        <br>
+                        <div class="sub header">Mar. 2014</div>
+                    </h5>
+                </div>
+                <br>
+                <br>
+                <hr>
+                <h3 class="ui header" id="led">Performance using LED suits and Self-propelled screen</h3>
+                Performance at 特定非営利活動法人ウェアラブルコンピュータ研究開発機構 NPO設立10周年記念シンポジウム.
+                <a href="http://cse.eedept.kobe-u.ac.jp/blog/?p=3004">[Blog]</a>
+                <h3 class="ui header"></h3>
+                <div class="movie-wrap">
+                    <iframe src="https://player.vimeo.com/video/265508306" width="672" height="378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="movie-wrap">
+                    <iframe src="https://player.vimeo.com/video/91144741" width="672" height="378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                <h5 class="ui center aligned header">
+                    <div class="sub header">Dec. 2013</div>
+                </h5>
+
+                <br>
+                <br>
+                <hr>
+                <h3 class="ui header" id="ice">Ice Sparkler</h3>Luminaires in which LEDs are embedded in ice.
+                <br>氷の線香花火。 氷の中にLEDを埋め込んだ照明器具。
+                <a href="https://www.yutadesignlab.com/details-huggy">[Blog]</a>
+                <ol class="ui list">
+                    <li value="*">Designer
+                        <ol>
+                            <li value="-">YUTA FUKUHARA</li>
+                            <li value="-">TAKERU YOSIHARA</li>
+                        </ol>
+                    </li>
+                    <li value="*">Engineer
+                        <ol>
+                            <li value="-">SHUHEI TSUCHIDA</li>
+                        </ol>
+                    </li>
+                    <li value="*">Production
+                        <ol>
+                            <li value="-">MASAMI KOZIMA</li>
+                        </ol>
+                    </li>
+                </ol>
+                <img class="ui centered big image" src="../images/ice.png">
+                <h3 class="ui header"></h3>
+                <div class="movie-wrap">
+                    <iframe src="https://player.vimeo.com/video/163912041" width="672" height="378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                <h5 class="ui center aligned header">
+                    <div class="sub header">July 2013</div>
+                </h5>
+
+                <br>
+                <br>
+                <hr>
+                <h3 class="ui header" id="galaxy">Galaxy Donation Box / 銀河鉄道募金箱</h3>The model train carries money and donates.
+                <h3 class="ui header"></h3>
+                <img class="ui centered big image" src="../images/donation.png">
+                <h3 class="ui header"></h3>
+                <div class="movie-wrap">
+                    <iframe src="https://player.vimeo.com/video/91145284" width="672" height="378" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                <h5 class="ui center aligned header">
+                    <div class="sub header">Dec. 2012</div>
+                </h5>
+
+                <br>
+                <br>
+                <hr>
+                <h3 class="ui header" id="wood">Design loves Engieering, 木工を利用した照明を作製</h3>見た目はただの角材。上下逆さにすると光が点灯する。 中には加速度センサが入っており、角材の姿勢を検出できる。
+                <h3 class="ui header"></h3>
+                <img class="ui centered big image" src="../images/wood.png">
+                <h3 class="ui header"></h3>
+                <div class="ui center aligned grid">
+                    <h5 class="ui header">
+                        <div class="sub header">Aug. 2012</div>
+                    </h5>
+                </div>
+                <br>
+                <br>
+                <hr>
+                <h3 class="ui header" id="zazen">ZAZEN APP</h3>頭にスマホを乗っけて座禅をするという謎iPhoneアプリ。 身体が傾きすぎるとバイブレーションが振動、「喝」を入れてくる。
+                <h3 class="ui header"></h3>
+                <img class="ui centered big image" src="../images/zazen.png">
+                <h3 class="ui header"></h3>
+                <br>
+                <br>
+                <hr>
+                <h3 class="ui header" id="wii">Wii Balance Board with Wheel</h3>Wii balance boardにスケボーをくっつけた。 加速度・角速度センサで検出できそうなことを重心位置の変化のみで検出。 プログラミングのいい勉強になった。 姿勢を変えたり、技を決めると音が鳴る。Make: Ogaki Meeting 2012 にて展示。
+                <a href="http://percy.hatenablog.com/entry/2012/08/28/165017">[Blog]</a>
+                <h3 class="ui header"></h3>
+                <img class="ui centered big image" src="../images/wii1.jpg">研究配属して初めて作ったポスターである。画像のアスペクト比を無視するなど、なかなかである。
+                <img class="ui centered big image" src="../images/wii2.jpg">
+                <h3 class="ui header"></h3>
+                <div class="ui center aligned grid">
+                    <h5 class="ui header">
+                        <div class="sub header">Aug. 2012</div>
+                    </h5>
+                </div>
+                <br>
+                <br>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="ui vertical footer segment">
+        <div class="ui center aligned container">
+            <small>&copy; 2014-2018 Shuhei Tsuchida </small>
+        </div>
+    </div>
+</body>
+
+</html>
