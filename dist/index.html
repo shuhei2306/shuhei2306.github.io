@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+            maximum-scale=2, user-scalable=no">
+    <meta name="description" content="AIST Dance Video Database.">
+    <meta name="keywords" content="Dance, Video">
+    <meta name="author" content="Shuhei Tsuchida">
+    <meta name="theme-color" content="#ffffff">
+    <title> AIST Dance Video Database </title>
+    <!-- <link rel="stylesheet" href="./index.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" type="text/css">
+    <style>body {
+            -webkit-font-smoothing: antialiased;
+            -moz-font-smoothing: grayscale;
+        }
+        
+        .hidden.menu {
+            display: none;
+        }
+        
+        .masthead.segment {
+            min-height: 50px;
+            padding: 1em 0em;
+        }
+        
+        .masthead .logo.item img {
+            margin-right: 1em;
+        }
+        
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+        
+        .masthead h1.ui.header {
+            margin-top: 3em;
+            margin-bottom: 0em;
+            font-size: 4em;
+            font-weight: normal;
+        }
+        
+        .masthead h2 {
+            font-size: 1.7em;
+            font-weight: normal;
+        }
+        
+        .ui.vertical.stripe {
+            padding: 5em 0em;
+        }
+        
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+        
+        .ui.vertical.stripe .button+h3,
+        .ui.vertical.stripe p+h3 {
+            margin-top: 3em;
+        }
+        
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+        
+        .ui.vertical.stripe p {
+            font-size: 1.33em;
+        }
+        
+        .ui.bulleted.list {
+            font-size: 1.33em;
+        }
+        
+        .ui.list {
+            font-size: 1.33em;
+        }
+        
+        .ui.grid .ui.segment {
+            padding: 2em 2em;
+        }
+        
+        .ui.dividing.header {
+            padding-top: 1em;
+        }
+        
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 3em 0em;
+        }
+        
+        .ui.text.container {
+            padding-top: 3em;
+            padding-bottom: 3em;
+        }
+        
+        .quote.stripe.segment {
+            padding: 0em;
+        }
+        
+        .quote.stripe.segment .grid .column {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+        
+        .footer.segment {
+            padding: 5em 0em;
+        }
+        
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
+        
+        .sample01 {
+            background: linear-gradient(transparent 80%, #ffff66 70%);
+        }
+        
+        .sample02 {
+            background: linear-gradient(transparent 70%, #ffc700 80%);
+        }
+        
+        .youtube2 {
+            position: relative;
+            width: 100%;
+            height: 0px;
+            padding-top: 52.65%;
+        }
+        
+        .youtube2 iframe {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            width: 100% !important;
+            height: 100% !important;
+        }
+        
+        @media only screen and (max-width: 1200px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+            .masthead.segment {
+                min-height: 50px;
+            }
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+        }</style>
+<script src="/term_of_use.js"></script></head>
+
+<body id="root">
+    <!--Hidden Header Menu-->
+    <!-- <div class="ui large top fixed hidden menu">
+      <div class="ui container">
+        <a class="active item">Home</a> 
+        <a class="item">Term of Use</a>
+        <a class="item">Gettring the Dataset</a> 
+        <a class="item">Databse Structure</a>
+        <a class="item">Data Formats</a>
+        <a class="item">Database Download</a>
+        <a class="item">Tasks</a>
+        <a class="item">Dancer Info</a>
+        <a class="item">FAQ</a>
+        <a class="item">Contact / Members</a>
+      </div>
+    </div> -->
+    <!--Sidebar Menu-->
+    <div class="ui vertical inverted sidebar menu">
+        <a href="/index.html" class="active item">Home</a>
+        <a href="/term_of_use.html" class="item">Terms of Use</a>
+        <a href="/getting_the_dataset.html" class="item">Gettring the Dataset</a>
+        <a href="/database_structure.html" class="item">Databse Structure</a>
+        <a href="/data_formats.html" class="item">Data Formats</a>
+        <a href="/database_download.html" class="item">Database Download</a>
+        <a href="/tasks.html" class="item">Tasks</a>
+        <a href="/dancer_info.html" class="item">Dancer Info</a>
+        <a href="/faq.html" class="item">FAQ</a>
+        <a href="/contact_members.html" class="item">Contact / Members</a>
+    </div>
+
+    <!--Page Contents-->
+    <div class="pusher">
+        <div class="ui inverted vertical masthead center aligned segment">
+            <div class="ui container">
+                <div class="ui large secondary inverted pointing menu">
+                    <a class="toc item"><i class="sidebar icon"></i></a>
+                    <a href="/index.html" class="active item">Home</a>
+                    <a href="/term_of_use.html" class="item">Terms of Use</a>
+                    <a href="/getting_the_dataset.html" class="item">Gettring
+                            the Dataset</a>
+                    <a href="/database_structure.html" class="item">Databse
+                            Structure</a>
+                    <a href="/data_formats.html" class="item">Data Formats</a>
+                    <a href="/database_download.html" class="item">Database
+                            Download</a>
+                    <a href="/tasks.html" class="item">Tasks</a>
+                    <a href="/dancer_info.html" class="item">Dancer Info</a>
+                    <a href="/faq.html" class="item">FAQ</a>
+                    <a href="/contact_members.html" class="item">Contact /
+                            Members</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui vertical stripe segment">
+            <div class="ui middle aligned container">
+
+                <h1 class="ui header"> AIST Dance Video Database </h1>
+                <div class="ui grid">
+                    <div class="eight wide column">
+                        <div class="ui segment">
+                            <ol class="ui list">
+                                <li>
+                                    <a href="#overview" class="item">
+                                            Overview
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="#how_to_get_started" class="item">
+                                            How to get started
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="#acknowledgments" class="item">
+                                            Acknowledgments
+                                        </a>
+                                </li>
+
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="ui dividing header" id="overview"> Overview </h1>
+                <p>
+                    AIST Dance Video Database (AIST Dance DB) is a shared database containing original street dance videos with copyright-cleared dance music. It promotes academic research regarding
+                    <strong class="sample01"> “Dance Information Processing”
+                        </strong> related to street dance. AIST Dance DB is the first large-scale shared database focusing on street dances to facilitate research related to dance and music. By using the database, the following novel
+                    tasks could be examined to emerge novel technologies:
+                    <div class="ui bulleted list">
+                        <div class="item">Dance Genre Estimation</div>
+                        <div class="item">Dancer Identification</div>
+                        <div class="item">Dance Technique Estimation</div>
+                    </div>
+                </p>
+
+                <div class="ui text container">
+                    <div class="youtube2">
+                        <iframe src="https://www.youtube.com/embed/t5azn3nk-NI" frameborder="0" allow="accelerometer; autoplay;
+                                encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+
+                <p>
+                    This database features:
+
+                    <div class="ui bulleted list">
+                        <div class="item">multiple genres (ten major dance genres)
+                        </div>
+                        <div class="item">multiple dancers (solo/group dancing by 40 professional dances)</div>
+                        <div class="item">multiple cameras (maximum nine video cameras around a dancer)</div>
+                    </div>
+                </p>
+
+                <div class="ui text container">
+                    <div class="ui large image">
+                        <img src="/multiple.726e5bf4.png">
+                    </div>
+                </div>
+
+                <h1 class="ui dividing header" id="how_to_get_started"> How to get started </h1>
+                <p>
+                    Please read through the <a href="/term_of_use.html">Terms
+                            of Use</a> before you start using the database. The
+                    <a href="/term_of_use.html">Terms
+                            of Use</a> contains terms and conditions for the use of the database as well as the disclaimer. The structure of the database is presented in detail at
+                    <a href="/database_structure.html">Dataset Structure</a>.
+                </p>
+                <p>
+                    There are several ways to download the dataset depending on the purpose. To download the database in full size (warning: dataset reaches several Terabytes), you can get it from [Getting the dataset]. To download the subset of the database for a particular
+                    purpose, you can choose the [Filtered Search] option. The musical pieces used in the database are also available at [Get Only Music Data].
+                </p>
+                <p>
+                    Along with the database, we have provided an exciting task named Dance Genre Estimation as a benchmark task. The subset data for executing the benchmark task is available at [Tasks].
+                </p>
+                <p>
+                    Please refer the following publication if you decide to use AIST DanceDB. [pdf]
+                </p>
+                <p>
+                    <div class="ui segment">
+                        <div class="header">
+                            Shuhei Tsuchida, Satoru Fukayama, Masahiro Hamasaki and Masataka Goto. AIST Dance Video Database: Multi-genre, Multi-dancer, and Multi-camera Database for Dance Information Processing. In Proceedings of the 20th International Society for Music Information
+                            Retrieval Conference (ISMIR 2019), 2019.
+                        </div>
+                        <div class="ui message">
+                            <pre>@inproceedings{aist-dance-db, 
+                            author = {S. Tsuchida and S. Fukayama and M. Hamasaki and M. Goto},  
+                            title = {AIST Dance Video Database: Multi-genre, Multi-dancer, and Multi-camera Database for Dance Information Processing}, 
+                            booktitle = {Proceedings of the 20th International Society for Music Information Retrieval Conference, {ISMIR} 2019}, 
+                            address = {Delft, Netherlands}, 
+                            year = 2019,  
+                            month = nov }
+                        </pre>
+                        </div>
+                    </div>
+
+                </p>
+                <h1 class="ui dividing header" id="acknowledgments">
+                    Acknowledgments </h1>
+                <p>
+                    AIST Dance DB was supported in part by JST ACCEL Grant Number JPMJAC1602, Japan. We appreciate the contributions by ANOMALY INC. for the music productions and filming the dance performances.
+                </p>
+            </div>
+        </div>
+
+        <!-- <div class="ui vertical stripe segment">
+            <div class="ui text container">
+                <h3 class="ui header">Breaking The Grid, Grabs Your Attention
+                </h3>
+                <p>
+                    Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.
+                </p>
+                <a class="ui large button">Read More</a>
+                <h4 class="ui horizontal header divider">
+                    <a href="#root"> Case Studies</a>
+                </h4>
+                <h3 class="ui header">Did We Tell You About Our Bananas?</h3>
+                <p>
+                    Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.
+                </p>
+                <a class="ui large button">I'm Still Quite Interested</a>
+            </div>
+        </div>
+
+        <div class="ui vertical stripe segment">
+            <div class="ui text container">
+                <h1 class="ui header">Semantic UI Fixed Template</h1>
+                <p>This is a basic fixed menu template using fixed size containers.
+                </p>
+                <p>
+                    A text container is used for the main container, which is useful for single column layouts
+                </p>
+
+                <img class="ui image" src="./static/images/wireframe/media-paragraph.png" />
+                <img class="ui image" src="./static/images/wireframe/paragraph.png" />
+            </div>
+        </div> -->
+        <div class="ui inverted vertical footer segment">
+            <div class="ui container">
+                <div class="ui stackable inverted divided equal height
+                        stackable grid">
+                    <div class="seven wide column">
+                        <p><small>©︎2019 AIST </small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+    <script>$(document).ready(function () {
+  // fix menu when passed
+  $(".masthead").visibility({
+    once: false,
+    onBottomPassed: function onBottomPassed() {
+      $(".fixed.menu").transition("fade in");
+    },
+    onBottomPassedReverse: function onBottomPassedReverse() {
+      $(".fixed.menu").transition("fade out");
+    }
+  }); // create sidebar and attach to menu open
+
+  $(".ui.sidebar").sidebar("attach events", ".toc.item");
+});</script>
+</body>
+
+</html>
