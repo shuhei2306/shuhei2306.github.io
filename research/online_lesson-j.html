@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shuehi Tsuchida</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.css">
+    <!-- <Link rel="stylesheet" type="text/css" href="../style.css"> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49751274-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49751274-1');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+    <style type="text/css">
+        .movie-wrap {
+            position: relative;
+            padding-bottom: 56.25%;
+            /*アスペクト比 16:9の場合の縦幅*/
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .movie-wrap iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .masthead.segment {
+            min-height: 300px;
+            padding: 1em 0em;
+        }
+        
+        .masthead .logo.item img {
+            margin-right: 0.5em;
+        }
+        
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+        
+        .masthead h1.ui.header {
+            margin-top: 2em;
+            margin-bottom: 0em;
+            font-size: 2.5em;
+            font-weight: normal;
+        }
+        
+        .masthead h2 {
+            font-size: 1.5em;
+            font-weight: normal;
+            margin-bottom: 3em;
+        }
+        
+        .ui.vertical.stripe {
+            padding: 5em 0em;
+        }
+        
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+        
+        .ui.vertical.stripe .button+h3,
+        .ui.vertical.stripe p+h3 {
+            margin-top: 3em;
+        }
+        
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+        
+        .ui.vertical.stripe p {
+            font-size: 1.33em;
+        }
+        
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 3em 0em;
+        }
+        
+        .quote.stripe.segment {
+            padding: 0em;
+        }
+        
+        .quote.stripe.segment .grid .column {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+        
+        .footer.segment {
+            padding: 5em 0em;
+        }
+        
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
+        
+        @media only screen and (max-width: 700px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+            .masthead.segment {
+                min-height: 350px;
+            }
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Contents -->
+
+    <div class="ui inverted vertical masthead center aligned segment">
+        <div class="ui inverted left aligned segment">
+            <div class="ui inverted button">
+                <a href="../index-j.html">Home </a>
+            </div>
+        </div>
+        <div class="ui text container">
+            <h1 class="ui inverted header">ダンスレッスンの可能性を拡張する講師ー生徒サポートAIシステムの開発</h1>
+            <h2 class="ui inverted header">柴崎加奈子, 土田修平, 清水大地
+                <br>
+                <br>
+                <br>
+                <br>
+            </h2>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="ui vertical stripe segment">
+
+        <div class="ui text container">
+
+            <h3 class="ui header">概要</h3>
+            COVID-19により、ダンスレッスンもZoom等のオンライン環境により実施されるようになった。一方で、そこでは以下の複数の課題が見受けられることが分かっている。 以上の課題を解決するためのダンスレッスンのシステムを構築・提案することにより、複数の生徒に対する細やかな指導、各生徒のペースに合わせた豊かな学習、講師―生徒間のコミュニケーションを取る事も可能となると考えられる。
+            <br>・生徒間、及び生徒講師間でのコミュニケーションが取りづらい
+            <br>・一人一人に指導が行き届かず、従来の対面レッスンのような細やかな指導がしづらい
+
+            <h4 class="ui horizontal header divider">VIDEO</h4>
+            <div class="movie-wrap">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oKdh2UgHaVU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- <h4 class="ui horizontal header divider">ARTICLE</h4>
+          <div class="ui bulleted list">
+            <div class="item">Seamless: 産総研、ダンス動画を入力に、ダンス楽曲を検索できる楽曲検索システム「Query-by-Dancing」を発表(10/02/2018).
+              <a href="https://shiropen.com/seamless/query-by-dancing">[LINK]</a>
+            </div>
+          </div> -->
+
+            <h4 class="ui horizontal header divider">SLIDE</h4>
+            <iframe src="//www.slideshare.net/slideshow/embed_code/key/cDXpgrymh9eBJc" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+            </iframe>
+            <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ShuheiTsuchida/ai-244910876"
+                        title="ダンスレッスンの可能性を拡張する講師ー生徒サポートAIシステムの開発"
+                        target="_blank">ダンスレッスンの可能性を拡張する講師ー生徒サポートAIシステムの開発</a> </strong> from <strong><a
+                        href="https://www.slideshare.net/ShuheiTsuchida" target="_blank">Shuhei Tsuchida</a></strong>
+            </div>
+
+            <h4 class="ui horizontal header divider">LINKS </h4>
+            <div class="ui center aligned container">
+                <div class="ui huge horizontal divided list">
+                    <div class="item">
+                        <a href="https://youtu.be/5M3Hipn7rJ8">
+                            <i class="youtube icon"></i> Video
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.slideshare.net/ShuheiTsuchida/ai-244881201">
+                            <i class="file outline icon"></i> Slide
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://youtu.be/h46t7hZfDOA">
+                            <i class="comment outline icon"></i> Talk
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <h4 class="ui horizontal header divider">REFERENCE</h4>
+
+            <!-- <ol>
+                <li>土田修平, 寺田 努, 塚本昌彦: ダンスステップ学習における分離学習の適用, 情報処理学会 インタラクション2021, pp. 64--73 (Mar. 2021). </li>
+            </ol> -->
+
+        </div>
+    </div>
+
+    <div class="ui vertical footer segment">
+        <div class="ui center aligned container">
+            <small>&copy; 2021 Shuhei Tsuchida </small>
+        </div>
+    </div>
+
+    <script>
+        $('.special.cards .image').dimmer({
+            on: 'hover'
+        });
+        $(document)
+            .ready(function() {
+                $('.ui.menu .ui.dropdown').dropdown({
+                    on: 'hover'
+                });
+                $('.ui.menu a.item')
+                    .on('click', function() {
+                        $(this)
+                            .addClass('active')
+                            .siblings()
+                            .removeClass('active');
+                    });
+            });
+    </script>
+</body>
+
+</html>
