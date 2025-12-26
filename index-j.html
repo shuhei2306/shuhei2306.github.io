@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
-    <meta name="viewport" content="width=device-width, initial-scale=1,
-            maximum-scale=2, user-scalable=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+            maximum-scale=2, user-scalable=no"
+    />
 
     <title>Shuhei Tsuchida</title>
     <meta name="author" content="Shuhei Tsuchida" />
@@ -15,307 +17,407 @@
     <!-- for SEO-->
     <meta itemprop="name" content="Shuhei Tsuchida" />
     <meta itemprop="description" content="Shuhei Tsuchida's home page." />
-    <meta itemprop="image" content="https://shuhei2306.com/images/tsuchida.png" />
+    <meta
+      itemprop="image"
+      content="https://shuhei2306.com/images/tsuchida.png"
+    />
 
     <!-- <link rel="stylesheet" href="./index.css" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
-        type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      type="text/css"
+    />
     <style type="text/css">
-        body {
-            -webkit-font-smoothing: antialiased;
-            -moz-font-smoothing: grayscale;
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: grayscale;
+      }
+
+      .hidden.menu {
+        display: none;
+      }
+
+      .masthead.segment {
+        min-height: 50px;
+        padding: 1em 0em;
+      }
+
+      .masthead .logo.item img {
+        margin-right: 1em;
+      }
+
+      .masthead .ui.menu .ui.button {
+        margin-left: 0.5em;
+      }
+
+      .masthead h1.ui.header {
+        margin-top: 3em;
+        margin-bottom: 0em;
+        font-size: 4em;
+        font-weight: normal;
+      }
+
+      .masthead h2 {
+        font-size: 1.7em;
+        font-weight: normal;
+      }
+
+      .ui.vertical.stripe {
+        padding: 5em 0em;
+      }
+
+      .ui.vertical.stripe h3 {
+        font-size: 2em;
+      }
+
+      .ui.vertical.stripe .button + h3,
+      .ui.vertical.stripe p + h3 {
+        margin-top: 3em;
+      }
+
+      .ui.vertical.stripe .floated.image {
+        clear: both;
+      }
+
+      .ui.vertical.stripe p {
+        font-size: 1.33em;
+      }
+
+      .ui.bulleted.list {
+        font-size: 1.33em;
+      }
+
+      .ui.list {
+        font-size: 1.33em;
+      }
+
+      .ui.grid .ui.segment {
+        padding: 2em 2em;
+      }
+
+      .ui.dividing.header {
+        padding-top: 1em;
+      }
+
+      .ui.vertical.stripe .horizontal.divider {
+        margin: 3em 0em;
+      }
+
+      .ui.text.container {
+        padding-top: 3em;
+        padding-bottom: 3em;
+      }
+
+      .quote.stripe.segment {
+        padding: 0em;
+      }
+
+      .quote.stripe.segment .grid .column {
+        padding-top: 5em;
+        padding-bottom: 5em;
+      }
+
+      .footer.segment {
+        padding: 5em 0em;
+      }
+
+      .secondary.pointing.menu .toc.item {
+        display: none;
+      }
+
+      .sample01 {
+        background: linear-gradient(transparent 80%, #ffff66 70%);
+      }
+
+      .sample02 {
+        background: linear-gradient(transparent 70%, #ffc700 80%);
+      }
+
+      .youtube2 {
+        position: relative;
+        width: 100%;
+        height: 0px;
+        padding-top: 52.65%;
+      }
+
+      .youtube2 iframe {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+      }
+
+      @media only screen and (max-width: 1200px) {
+        .ui.fixed.menu {
+          display: none !important;
         }
 
-        .hidden.menu {
-            display: none;
-        }
-
-        .masthead.segment {
-            min-height: 50px;
-            padding: 1em 0em;
-        }
-
-        .masthead .logo.item img {
-            margin-right: 1em;
-        }
-
-        .masthead .ui.menu .ui.button {
-            margin-left: 0.5em;
-        }
-
-        .masthead h1.ui.header {
-            margin-top: 3em;
-            margin-bottom: 0em;
-            font-size: 4em;
-            font-weight: normal;
-        }
-
-        .masthead h2 {
-            font-size: 1.7em;
-            font-weight: normal;
-        }
-
-        .ui.vertical.stripe {
-            padding: 5em 0em;
-        }
-
-        .ui.vertical.stripe h3 {
-            font-size: 2em;
-        }
-
-        .ui.vertical.stripe .button+h3,
-        .ui.vertical.stripe p+h3 {
-            margin-top: 3em;
-        }
-
-        .ui.vertical.stripe .floated.image {
-            clear: both;
-        }
-
-        .ui.vertical.stripe p {
-            font-size: 1.33em;
-        }
-
-        .ui.bulleted.list {
-            font-size: 1.33em;
-        }
-
-        .ui.list {
-            font-size: 1.33em;
-        }
-
-        .ui.grid .ui.segment {
-            padding: 2em 2em;
-        }
-
-        .ui.dividing.header {
-            padding-top: 1em;
-        }
-
-        .ui.vertical.stripe .horizontal.divider {
-            margin: 3em 0em;
-        }
-
-        .ui.text.container {
-            padding-top: 3em;
-            padding-bottom: 3em;
-        }
-
-        .quote.stripe.segment {
-            padding: 0em;
-        }
-
-        .quote.stripe.segment .grid .column {
-            padding-top: 5em;
-            padding-bottom: 5em;
-        }
-
-        .footer.segment {
-            padding: 5em 0em;
+        .secondary.pointing.menu .item,
+        .secondary.pointing.menu .menu {
+          display: none;
         }
 
         .secondary.pointing.menu .toc.item {
-            display: none;
+          display: block;
         }
 
-        .sample01 {
-            background: linear-gradient(transparent 80%, #ffff66 70%);
+        .masthead.segment {
+          min-height: 50px;
         }
 
-        .sample02 {
-            background: linear-gradient(transparent 70%, #ffc700 80%);
+        .masthead h1.ui.header {
+          font-size: 2em;
+          margin-top: 1.5em;
         }
 
-        .youtube2 {
-            position: relative;
-            width: 100%;
-            height: 0px;
-            padding-top: 52.65%;
+        .masthead h2 {
+          margin-top: 0.5em;
+          font-size: 1.5em;
         }
-
-        .youtube2 iframe {
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
-            width: 100% !important;
-            height: 100% !important;
-        }
-
-        @media only screen and (max-width: 1200px) {
-            .ui.fixed.menu {
-                display: none !important;
-            }
-
-            .secondary.pointing.menu .item,
-            .secondary.pointing.menu .menu {
-                display: none;
-            }
-
-            .secondary.pointing.menu .toc.item {
-                display: block;
-            }
-
-            .masthead.segment {
-                min-height: 50px;
-            }
-
-            .masthead h1.ui.header {
-                font-size: 2em;
-                margin-top: 1.5em;
-            }
-
-            .masthead h2 {
-                margin-top: 0.5em;
-                font-size: 1.5em;
-            }
-        }
+      }
     </style>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49751274-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-49751274-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-49751274-1');
+      gtag("config", "UA-49751274-1");
     </script>
-</head>
+  </head>
 
-<body id="root">
+  <body id="root">
     <!--Hidden Header Menu-->
     <div class="ui large top fixed hidden menu">
-        <div class="ui container">
-            <a href="index-j.html" class="active item"> Home </a>
-            <a href="about-j.html" class="item"> About</a>
-            <a href="publications-j.html" class="item">Publications</a>
-            <a href="https://tsuchidalab.jp/" class="item">Laboratory</a>
-            <a href="https://aistdancedb.ongaaccel.jp/" class="item">AIST Dance DB</a>
-            <a href="https://scrapbox.io/DancePedia/" class="item">DancePedia</a>
-            <a href="https://jsds.info/" class="item">日本ダンス研究会</a>
-            <a href="https://www.sigdance.site/home" class="item">SIGDance</a>
-        </div>
-    </div>
-    <!--Sidebar Menu-->
-    <div class="ui vertical inverted sidebar menu">
+      <div class="ui container">
         <a href="index-j.html" class="active item"> Home </a>
         <a href="about-j.html" class="item"> About</a>
         <a href="publications-j.html" class="item">Publications</a>
         <a href="https://tsuchidalab.jp/" class="item">Laboratory</a>
-        <a href="https://aistdancedb.ongaaccel.jp/" class="item">AIST Dance DB</a>
+        <a href="https://aistdancedb.ongaaccel.jp/" class="item"
+          >AIST Dance DB</a
+        >
         <a href="https://scrapbox.io/DancePedia/" class="item">DancePedia</a>
         <a href="https://jsds.info/" class="item">日本ダンス研究会</a>
         <a href="https://www.sigdance.site/home" class="item">SIGDance</a>
+      </div>
+    </div>
+    <!--Sidebar Menu-->
+    <div class="ui vertical inverted sidebar menu">
+      <a href="index-j.html" class="active item"> Home </a>
+      <a href="about-j.html" class="item"> About</a>
+      <a href="publications-j.html" class="item">Publications</a>
+      <a href="https://tsuchidalab.jp/" class="item">Laboratory</a>
+      <a href="https://aistdancedb.ongaaccel.jp/" class="item">AIST Dance DB</a>
+      <a href="https://scrapbox.io/DancePedia/" class="item">DancePedia</a>
+      <a href="https://jsds.info/" class="item">日本ダンス研究会</a>
+      <a href="https://www.sigdance.site/home" class="item">SIGDance</a>
 
-        <div class="right menu">
-            <div class="ui dropdown item">
-                Language
-                <i class="dropdown icon"></i>
-                <div class="menu">
-                    <a class="item" href="index.html">English</a>
-                    <a class="item" href="index-j.html">Japanese</a>
-                </div>
-            </div>
+      <div class="right menu">
+        <div class="ui dropdown item">
+          Language
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <a class="item" href="index.html">English</a>
+            <a class="item" href="index-j.html">Japanese</a>
+          </div>
         </div>
+      </div>
     </div>
 
     <!--Page Contents-->
     <div class="pusher">
-        <!--Header-->
-        <div class="ui inverted vertical masthead center aligned segment">
-            <div class="ui container">
-                <div class="ui large secondary inverted pointing menu">
-                    <a class="toc item"><i class="sidebar icon"></i></a>
-                    <a href="index-j.html" class="active item"> Home </a>
-                    <a href="about-j.html" class="item"> About</a>
-                    <a href="publications-j.html" class="item">Publications</a>
-                    <a href="https://tsuchidalab.jp/" class="item">Laboratory</a>
-                    <a href="https://aistdancedb.ongaaccel.jp/" class="item">AIST Dance DB</a>
-                    <a href="https://scrapbox.io/DancePedia/" class="item">DancePedia</a>
-                    <a href="https://jsds.info/" class="item">日本ダンス研究会</a>
-                    <a href="https://www.sigdance.site/home" class="item">SIGDance</a>
+      <!--Header-->
+      <div class="ui inverted vertical masthead center aligned segment">
+        <div class="ui container">
+          <div class="ui large secondary inverted pointing menu">
+            <a class="toc item"><i class="sidebar icon"></i></a>
+            <a href="index-j.html" class="active item"> Home </a>
+            <a href="about-j.html" class="item"> About</a>
+            <a href="publications-j.html" class="item">Publications</a>
+            <a href="https://tsuchidalab.jp/" class="item">Laboratory</a>
+            <a href="https://aistdancedb.ongaaccel.jp/" class="item"
+              >AIST Dance DB</a
+            >
+            <a href="https://scrapbox.io/DancePedia/" class="item"
+              >DancePedia</a
+            >
+            <a href="https://jsds.info/" class="item">日本ダンス研究会</a>
+            <a href="https://www.sigdance.site/home" class="item">SIGDance</a>
 
-                    <div class="right menu">
-                        <div class="ui dropdown item">
-                            Language
-                            <i class="dropdown icon"></i>
-                            <div class="menu">
-                                <a class="item" href="index.html">English</a>
-                                <a class="item" href="index-j.html">Japanese</a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="right menu">
+              <div class="ui dropdown item">
+                Language
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <a class="item" href="index.html">English</a>
+                  <a class="item" href="index-j.html">Japanese</a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
+      <!--Body-->
+      <div class="ui vertical stripe segment">
+        <div class="ui middle aligned container">
+          <div class="ui grid">
+            <div class="center aligned four wide column">
+              <img
+                class="ui top aligned small image"
+                src="images/tsuchida.png"
+              />
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                土田 修平
+                <font size="2" ​>博士 (工学)</font>
+              </h2>
+              <div class="sub header">
+                <i class="briefcase icon"></i> お茶の水女子大学
+                共創工学部文化情報工学科/大学院人間文化創成科学研究科共創工学専攻
+                講師
+              </div>
+              <div class="sub header">
+                <i class="address card outline icon"></i>
+                <a href="https://tsuchidalab.jp/">研究室</a>
+              </div>
+              <div class="sub header">
+                <i class="twitter icon"></i>
+                <a href="https://twitter.com/shuhei2306">Twitter</a>
+              </div>
+              <div class="sub header">
+                <i class="tumblr icon"></i>
+                <a href="http://percy2306.tumblr.com/">Tumblr</a>
+              </div>
+              <a href="https://aistdancedb.ongaaccel.jp/"
+                ><img
+                  class="ui top aligned medium image"
+                  src="images/aistdancedb.png"
+                />
+              </a>
+            </div>
+          </div>
 
+          <!-- Contact / Requests (inserted before News) -->
+           <br />
+            <h2 class="ui header">
+                <i class="comments outline icon"></i>
+                ご相談・ご依頼
+            </h2>
+            <p style="font-size: 1.1em; line-height: 1.6">
+              社会に開かれた研究活動を心がけておりますので、各種お気軽にご相談ください。
+            </p>
+          <div class="ui segment">
 
-        <!--Body-->
-        <div class="ui vertical stripe segment">
-            <div class="ui middle aligned container">
-                <div class="ui grid">
-                    <div class="center aligned four wide column">
-                        <img class="ui top aligned small image" src="images/tsuchida.png">
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            土田 修平
-                            <font size="2" ​>博士 (工学)</font>
-                        </h2>
-                        <div class="sub header"><i class="briefcase icon"></i> お茶の水女子大学 共創工学部文化情報工学科/大学院人間文化創成科学研究科生活工学共同専攻 講師 </div>
-                        <div class="sub header"><i class="mail icon"></i> tsuchida.shuhei "at" ocha.ac.jp </div>
-                        <div class="sub header"><i class="address card outline icon"></i> <a
-                            href="https://tsuchidalab.jp/">研究室</a> </div>
-                        <div class="sub header"><i class="twitter icon"></i> <a
-                                href="https://twitter.com/shuhei2306">Twitter</a> </div>
-                        <div class="sub header"><i class="tumblr icon"></i> <a
-                                href="http://percy2306.tumblr.com/">Tumblr</a> </div>
-                        <a href="https://aistdancedb.ongaaccel.jp/"><img class="ui top aligned medium image"
-                                src="images/aistdancedb.png">
-                        </a>
-                    </div>
-
+            <div class="ui relaxed list" style="font-size: 1.1em">
+              <div class="item">
+                <i class="users icon"></i>
+                <div class="content">
+                  <div class="header">講演・講義・パネル登壇・審査員等</div>
+                  <div class="description">
+                    講演・講義を日常的に行っています。
+                    <a href="https://forms.gle/DTjg7zyBq5HZdAjQ7">依頼はこちら</a>
+                  </div>
                 </div>
+              </div>
 
-                <!-- PecentNews -->
-                <br>
-                <div class="ui divider"></div>
-                <h1 class="ui header">
-                    <i class="newspaper icon"></i>News
-                </h1>
+              <div class="item">
+                <i class="handshake outline icon"></i>
+                <div class="content">
+                  <div class="header">共同研究・技術相談</div>
+                  <div class="description">
+                    共同研究の打診や技術相談はこちらから。
+                    <a href="https://forms.gle/2Jjhc3gxNsY8VBN4A">相談はこちら</a>
+                  </div>
+                </div>
+              </div>
 
-                <div class="ui segment">
-                    <div class="ui divided feed">
-                        <div class="event">
-                            <div class="content">
-                                <div class="date">2023/04/25
-                                </div>
-                                活動は<a href="https://tsuchidalab.jp/">研究室ホームページ</a>に記載していく方針に徐々に移行してます。
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ui divided feed">
-                        <div class="event">
-                            <div class="content">
-                                <div class="date">2023/04/25
-                                </div>
-                                <a href="https://tsuchidalab.jp/">研究室ホームページ</a>を作成しました。
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ui divided feed">
-                        <div class="event">
-                            <div class="content">
-                                <div class="date">2023/04/01
-                                </div>
-                                お茶の水女子大学に講師として着任しました！これからも皆様どうぞよろしくお願い致します！！！
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ui divided feed">
+              <div class="item">
+                <i class="newspaper outline icon"></i>
+                <div class="content">
+                  <div class="header">取材（テレビ・新聞・雑誌・Web）</div>
+                  <div class="description">
+                    取材のご依頼はこちらから。
+                    <a href="https://forms.gle/2Gp8CzpeT9CkKcaC9">依頼はこちら</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <i class="lightbulb outline icon"></i>
+                <div class="content">
+                  <div class="header">インタビュー／コンサルティング</div>
+                  <div class="description">
+                    製品・サービス開発の助言、アイデア出しプロセスへの継続参加などが可能です。
+                    <a href="https://forms.gle/2Jjhc3gxNsY8VBN4A">依頼はこちら</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <i class="graduation cap icon"></i>
+                <div class="content">
+                  <div class="header">大学院進学の相談</div>
+                  <div class="description">
+                    お茶の水女子大学外部からの修士課程、博士課程への入学を受け入れています。
+                    指導できる分野はヒューマンコンピュータインタラクション、表現工学です。
+                    <a href="https://forms.gle/2Jjhc3gxNsY8VBN4A">相談はこちら</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="ui message">
+              <div class="header">注意</div>
+              <p style="margin-top: 0.5em">
+                ああ　</p>
+            </div> -->
+          </div>
+
+          <!-- PecentNews -->
+          <br />
+          <div class="ui divider"></div>
+          <h1 class="ui header"><i class="newspaper icon"></i>News</h1>
+
+          <div class="ui segment">
+            <div class="ui divided feed">
+              <div class="event">
+                <div class="content">
+                  <div class="date">2023/04/25</div>
+                  活動は<a href="https://tsuchidalab.jp/">研究室ホームページ</a
+                  >に記載していく方針に徐々に移行してます。
+                </div>
+              </div>
+            </div>
+            <div class="ui divided feed">
+              <div class="event">
+                <div class="content">
+                  <div class="date">2023/04/25</div>
+                  <a href="https://tsuchidalab.jp/">研究室ホームページ</a
+                  >を作成しました。
+                </div>
+              </div>
+            </div>
+            <div class="ui divided feed">
+              <div class="event">
+                <div class="content">
+                  <div class="date">2023/04/01</div>
+                  お茶の水女子大学に講師として着任しました！これからも皆様どうぞよろしくお願い致します！！！
+                </div>
+              </div>
+            </div>
+            <!-- <div class="ui divided feed">
                         <div class="event">
                             <div class="content">
                                 <div class="date">2023/03/31
@@ -369,7 +471,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="ui divided feed">
+                    <div class="ui divided feed">
                         <div class="event">
                             <div class="content">
                                 <div class="date">2022/12/21
@@ -512,7 +614,7 @@
                             </div>
                         </div>
                     </div> -->
-                    <!-- <div class="ui divided feed">
+            <!-- <div class="ui divided feed">
                         <div class="event">
                             <div class="content">
                                 <div class="date">2022/03/16
@@ -648,7 +750,7 @@
                             </div>
                         </div>
                     </div> -->
-                    <!-- <div class="ui divided feed">
+            <!-- <div class="ui divided feed">
                         <div class="event">
                             <div class="content">
                                 <div class="date">07/03/2018
@@ -807,1399 +909,1318 @@
                       
                             <dt>2014/06/02</dt>
                             <dd><a href="http://cse.eedept.kobe-u.ac.jp/blog/?p=3197">「touch&wear digital TAIKAN MATSURI」。</a></dd> -->
-                </div>
-
-                <!-- Research -->
-                <br>
-                <div class="ui divider"></div>
-                <h1 class="ui header">
-                    <i class="pen square icon"></i>Research
-                </h1>
-
-                <!--練習・本番--------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned middle aligned four wide column">
-                        <img class="ui top aligned medium image" src="images/r_h.png">
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            ダンスパフォーマンスにおけるあがりに弱い人を支援するための動作・生体情報分析
-                        </h2>
-                        <div class="sub header"> <u><b>土田修平</b></u>（神戸大学），大西 鮎美（神戸大学），向井香瑛（早稲田大学），渡辺 謙（早稲田大学），渡邊 克巳（早稲田大学），寺田 努（神戸大学），塚本昌彦（神戸大学） </div>
-                        <div class="sub header">
-                            <br> 本研究では，プレッシャーによって引き起こされる「あがり」に上手く対処できない人を対象としたあがり対処支援システムの構築を目指して，プレッシャーのかかる本番環境とプレッシャーのかからない練習環境におけるダンサーの動作・生体情報を分析する．分析を通してあがりを上手く対処できる人とそうでない人との違いを明らかにし，その違いを埋められるようなあがり対処支援手法について検討する．プレッシャーのかかる本番環境を構築するために，ダンスオーディションを企画し，その審査過程における参加者のさまざまな心身の状態を計測・分析する．
-                        </div>
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                ENG:
-                            </div>
-
-                        </div>
-                        <br>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                JPN:
-                            </div>
-
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/interactin2023.pdf">
-                                     論文(インタラクション2023)
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://youtu.be/Z1-ROz7iaJk">
-                                    デモ動画
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i>
-                                <a href="https://speakerdeck.com/shuhei2306/dansupahuomansuniokeruagariniruo-iren-wozhi-yuan-surutamenodong-zuo-sheng-ti-qing-bao-fen-xi">
-                                    スライド
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a href="https://www.youtube.com/live/bPX4BXhuevs?feature=share&t=319">
-                                    発表
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!--自動分割--------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned middle aligned four wide column">
-                        <img class="ui top aligned medium image" src="images/08.jpg">
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            振りの理解を助けるためのダンス動画の自動分割
-                        </h2>
-                        <div class="sub header">遠藤輝貴（東京大学）、<u><b>土田修平</b></u>（神戸大学）、五十嵐健夫（東京大学） </div>
-                        <div class="sub header">
-                            <br> 本研究ではダンス動画の振りを短時間の動きへと自動で分割する手法を提案する．提案手法では動画中のダンサーのポーズ情報から視覚特徴量を，動画中の音楽から聴覚特徴量をそれぞれ計算し，これらをTemporal Convolutional Network (TCN) に入力して，出力された分割可能性のピークを検出することで動画の分割位置を求める．本論文では提案手法の詳細や実験結果と，自動分割を応用したダンス学習支援システムについて述べる．
-                        </div>
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                ENG:
-                            </div>
-
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/automatic_segmentation.html">
-                                    Project Page
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="https://arxiv.org/pdf/2405.19727"> arXiv </a>
-                                
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://youtu.be/NZWEfYTH71E">
-                                    Video
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file icon"></i>
-                                
-                                    Bib
-                                
-                            </div>
-                            <div class="item">
-                                <i class="linkify icon"></i>
-                                <a href="https://doi.org/10.1145/3658852.3659076">
-                                    DOI
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i>
-                                
-                                    Slide
-                                
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a href="https://youtu.be/1Z5peVA8uEY">
-                                    Talk
-                                </a>
-                            </div>
-
-                        </div>
-                        <br>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                JPN:
-                            </div>
-
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="https://www.wiss.org/WISS2022Proceedings/data/08.pdf">
-                                     論文(WISS2022)
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://www.wiss.org/WISS2022Proceedings/data/08.mp4">
-                                    デモ動画
-                                </a>
-                            </div>
-                            
-                        </div>
-
-                    </div>
-                </div>
-
-                <!--セルフモデリング--------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned middle aligned four wide column">
-                        <a href="research/self-modeling-j.html">
-                            <img class="ui top aligned medium image" src="images/selfmodeling.png">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            ダンスをマスターした自身の映像を先に見ることによるダンス学習支援
-                        </h2>
-                        <div class="sub header"> <u><b>土田修平</b></u>（神戸大学）, Mao Haomin（神戸大学）, 岡本 秀明（ソフトバンク株式会社）, 鈴木
-                            裕真（ソフトバンク株式会社）, 金田 麟太郎（ソフトバンク株式会社）, 堀 隆之（ソフトバンク株式会社）, 寺田 努（神戸大学）, 塚本 昌彦（神戸大学）</div>
-                        <div class="sub header">
-                            <br>本研究では，プロフェッショナルなダンサーのダンスをマスターして踊る自身の映像を見ながらダンス動作を学習する学習支援手法を提案する．理想的な動作を行う自身の映像を見ることで行動の改善を促す「ビデオセルフモデリング」は，運動技能の学習においても有効とされる．しかし，理想的な動作を行なっている自身の映像を作成するには，多くの時間を割く必要があり手間がかかる．そこで，深層学習による映像生成技術を用いて参照動画中のダンサーの動作と同じ動作を行う学習者自身の映像を自動で生成し，その映像を見ることで学習者の学習を促す．
-                        </div>
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                ENG:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/self-modeling.html">
-                                    Project Page
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/self_modeling.pdf">
-                                    Paper
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://youtu.be/TBDORePu_BI">
-                                    Demo
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i>
-                                <a
-                                    href="https://speakerdeck.com/shuhei2306/dance-practice-system-that-shows-what-you-would-look-like-if-you-could-master-the-dance?slide=36 ">
-                                    Slide
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a href="https://youtu.be/KSJvkNQO10Y">
-                                    Talk
-                                </a>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                JPN:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/self-modeling-j.html">
-                                    プロジェクトページ
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/hci197.pdf">
-                                    論文
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://youtu.be/O5aN_cnHZbA">
-                                    デモ動画
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i>
-                                <a href="https://www.slideshare.net/ShuheiTsuchida/ss-251340052">
-                                    スライド
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a href="https://youtu.be/ks041d_NBCQ">
-                                    発表
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!--分離学習--------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned middle aligned four wide column">
-                        <a href="research/separated_learning-j.html">
-                            <img class="ui top aligned medium image" src="images/INT21008.png">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            ダンスステップ学習における分離学習の適用
-                        </h2>
-                        <div class="sub header"><u><b>土田修平</b></u>（神戸大学）, 寺田 努（神戸大学）, 塚本昌彦（神戸大学）</div>
-                        <div class="sub header">
-                            <br>我々の研究グループでは，身体を動かさずに情報提示を受けることに集中するフェーズと動作を実施するフェーズの二つに分割して学習を進める「分離学習」という学習方法を提案している．
-                            本研究では，身体全体を使ったダンスステップの習得のための情報提示システムを構築し，ダンスステップの習得においても分離学習が適用可能か，また動作の習得難易度によって分離学習の有効性に影響を及ぼすかについて評価した．
-                        </div>
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                ENG:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/separated_learning.html">
-                                    Project Page
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/separated_learning.pdf">
-                                    Pre
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://youtu.be/6DwgD0SFQcM">
-                                    Video
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file icon"></i>
-                                <a href="bib/separated_learning.bib">
-                                    Bib
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="linkify icon"></i>
-                                <a href="https://doi.org/10.1007/978-3-031-20436-4_3">
-                                    DOI
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i>
-                                <a href="https://speakerdeck.com/shuhei2306/momm2022-separated-learning">
-                                    Slide
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a href="https://youtu.be/aFICUnYtS4c">
-                                    Talk
-                                </a>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                JPN:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/separated_learning-j.html">
-                                    プロジェクトページ
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/Interaction_2021(before_revision).pdf">
-                                    論文
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://youtu.be/oKdh2UgHaVU">
-                                    デモ動画
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i>
-                                <a href="https://www.slideshare.net/ShuheiTsuchida/ss-244910791">
-                                    スライド
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a href="https://youtu.be/3xWqULVUvq8?t=746">
-                                    発表
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!--未踏AI--------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned middle aligned four wide column">
-                        <a href="research/online_lesson-j.html">
-                            <img class="ui top aligned medium image" src="images/online_lesson.png">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            ダンスレッスンの可能性を拡張する講師ー生徒サポートAIシステムの開発
-                        </h2>
-                        <div class="sub header">柴崎加奈子, <u><b>土田修平</b></u>（神戸大学）, 清水大地（東京大学）</div>
-                        <div class="sub header">
-                            <br>
-                            COVID-19により、ダンスレッスンもZoom等のオンライン環境により実施されるようになった。一方で、そこでは以下の複数の課題が見受けられることが分かっている。以上の課題を解決するためのダンスレッスンのシステムを構築・提案することにより、複数の生徒に対する細やかな指導、各生徒のペースに合わせた豊かな学習、講師―生徒間のコミュニケーションを取る事も可能となると考えられる。
-                            <br> ・生徒間、及び生徒講師間でのコミュニケーションが取りづらい
-                            <br> ・一人一人に指導が行き届かず、従来の対面レッスンのような細やかな指導がしづらい
-                        </div>
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                ENG:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/online_lesson.html">
-                                    Project Page
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/online_lesson.pdf">
-                                    Paper
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i>
-                                <a href="https://speakerdeck.com/shuhei2306/online-dance-lesson-support-system-using-flipped-classroom">
-                                    Slide
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a href="https://youtu.be/VhOubwYNzpc">
-                                    Talk
-                                </a>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                JPN:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/online_lesson-j.html">
-                                    プロジェクトページ
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/20210108.pdf">
-                                    論文
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://youtu.be/5M3Hipn7rJ8">
-                                    デモ動画
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i>
-                                <a href="https://www.slideshare.net/ShuheiTsuchida/ai-244881201">
-                                    スライド
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a href="https://youtu.be/h46t7hZfDOA">
-                                    発表
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a href="https://youtu.be/JtBjBQ-pvMI">
-                                    成果報告
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!--モーション可視化--------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned middle aligned four wide column">
-                        <img class="ui top aligned medium image" src="images/visualization.png">
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            ダンスモーションの反復練習とその上達過程の可視化
-                        </h2>
-                        <div class="sub header">川西真美（お茶の水女子大学）, <u><b>土田修平</b></u>（神戸大学）, 伊藤貴之（お茶の水女子大学）</div>
-                        <div class="sub header">
-                            <br>我々は，同一のダンスを反復的に練習した際の動作の差異や変化を可視化することで，ダンスのスキル向上に寄与する可視化システムを開発している．本手法では，同一人物による同一のダンスの練習を複数回計測する．そして各モーションに対して，動作のタイミングを揃える時間補正，ダンサーの位置や身体の向きを揃える空間補正を適用する．講師による模範動作も計測されている場合には，ダンサーと講師の間の体格差を補正する体格補正も適用する．続いて補正後の各モーションを構成する手足などのパーツに対してクラスタリングを適用し，クラスタリング結果を可視化する．ユーザはその可視化結果にもとづいて任意の複数のモーションを選んで，これらをアニメーション表示することで，ダンサーの動作の差異や変化を確認することができる．
-                        </div>
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                ENG:
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/ItotRICPE160.pdf">
-                                     IV2023
-                                </a>
-                            </div>
-                            
-                        </div>
-                        <br>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                JPN:
-                            </div>
-
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/3-B05.pdf">
-                                     WISS2022
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="http://id.nii.ac.jp/1001/00219033/">
-                                    HCI199
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="http://www.interaction-ipsj.org/proceedings/2022/data/pdf/2P04.pdf">
-                                   インタラクション2022
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="https://www.wiss.org/WISS2021Proceedings/data/1-B04.pdf">
-                                     WISS2021
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="https://www.interaction-ipsj.org/proceedings/2021/data/pdf/1Q07.pdf">
-                                     インタラクション2021
-                                </a>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <!--Dance Unisoner--------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned middle aligned four wide column">
-                        <a href="research/danceunisoner-j.html">
-                            <img class="ui top aligned medium image" src="images/DanceUnisoner.jpg">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            DanceUnisoner: グループダンスパフォーマンス動画作成インタフェース</h2>
-                        <div class="sub header"> <u><b>土田修平</b></u>（産業技術総合研究所）, 深山 覚（産業技術総合研究所）, 後藤真孝（産業技術総合研究所）
-                        </div>
-                        <div class="sub header">
-                            <br> 複数人でのダンスのイメージを振付師1人でも検討・確認・共有できるグループダンスパフォーマンス動画作成インタフェース DanceUnisoner を開発した．
-                            DanceUnisoner では，ダンサー1人が踊っているダンス動画をコピー&ペーストの要領で三次元空間に配置していくことで，グループダンスの動画を手軽に作成できる．
-                            グループダンスの人数や配置，向き，大きさ，時間ずれを一括で容易に変更できるシンプルなGUIを備える．
-                        </div>
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                ENG:
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://youtu.be/b90PPKLvANA">
-                                    Video
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/danceunisoner_submit_ver.pdf">
-                                    Paper
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="linkify icon"></i>
-                                <a href="https://doi.org/10.1587/transinf.2023EDP7063">
-                                    DOI
-                                </a>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                JPN:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/danceunisoner-j.html">
-                                    プロジェクトページ
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i> 
-                                <a href="https://www.wiss.org/WISS2019Proceedings/oral/1.pdf">
-                                    論文
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i> 
-                                <a href="https://youtu.be/b90PPKLvANA">
-                                   デモ動画
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <i class="file outline icon"></i> 
-                                <a href="https://www.slideshare.net/ShuheiTsuchida/danceunisoner">
-                                    スライド
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a href="https://youtu.be/u9ozqzyyqCE?t=10158">
-                                     発表
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!--AIST Dance DB--------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned middle aligned four wide column">
-                        <a href="https://aistdancedb.ongaaccel.jp/">
-                            <img class="ui top aligned medium image" src="images/black_title.png">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            AIST Dance Video Database:ダンス情報処理研究のためのストリートダンス動画データベース</h2>
-                        <div class="sub header"> <u><b>土田修平</b></u>（産業技術総合研究所）, 深山 覚（産業技術総合研究所）, 濱崎雅弘（産業技術総合研究所）,
-                            後藤真孝（産業技術総合研究所）
-                        </div>
-                        <div class="sub header">
-                            <br> 産総研ダンスビデオデータベースは、著作権をクリアした60曲の楽曲と13940本のストリートダンスビデオを含む大規模データベースです。
-                            ダンスモーション分類やダンサー識別などのダンス情報処理の研究を促進させます。
-                        </div>
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                ENG:
-                            </div>
-                            <div class="item">
-                                <i class="database icon"></i>
-                                <a href="https://aistdancedb.ongaaccel.jp/">
-                                     AIST Dance Video Database
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="http://archives.ismir.net/ismir2019/paper/000060.pdf">
-                                    Paper
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i> 
-                                <a href="pdf/ismir_poster_v4.pdf">
-                                  Poster
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i> 
-                                <a href="https://youtu.be/dpE3H10F0cY">
-                                    Video
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file icon"></i> 
-                                <a href="bib/aistdancedb.bib">
-                                    Bib
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i> 
-                                <a href="https://www.slideshare.net/ShuheiTsuchida/aist-dance-video-database-multigenre-multidancer-and-multicamera-database-for-dance-information-processing-244912762">
-                                    Slide
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a
-                                    href="https://collegerama.tudelft.nl/Mediasite/Showcase/ismir2019/Presentation/7e4c2c64e23249e9830bd446866a011b1d">
-                                     Talk
-                                </a>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                JPN:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/aistdancedb-j.html">
-                                    プロジェクトページ
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/014346.pdf">
-                                    論文
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i> 
-                                <a href="https://www.slideshare.net/ShuheiTsuchida/aist-dance-video-database">
-                                    スライド
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a href="https://live.nicovideo.jp/watch/lv324368232">
-                                    発表
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!--Query by dancing--------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned middle aligned four wide column">
-                        <a href="research/query_by_dancing-j.html">
-                            <img class="ui top aligned medium image" src="images/query_by_d.png">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            Query-by-Dancing: 身体動作の類似性に基づくダンス楽曲検索システム
-                        </h2>
-                        <div class="sub header"> <u><b>土田修平</b></u>（産業技術総合研究所）, 深山 覚（産業技術総合研究所）, 後藤真孝（産業技術総合研究所） </div>
-                        <div class="sub header">
-                            <br>ダンス動画データベース中を検索するためのクエリとして，ユーザのダンス動作を用いるQuery-by-Dancingを開発した．
-                            このシステムは，クエリであるダンスに含まれるポーズ（姿勢）とモーション（動作）を抽出し，それらに類似したポーズとモーションが含まれるダンス動画を検索する．
-                            得られたダンス動画に付随する楽曲を用いることで，自分のダンスに適した楽曲を検索できる．
-                        </div>
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                ENG:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/query_by_dancing-e.html">
-                                    Project Page
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/mmm-query-by-dancing.pdf">
-                                     Paper
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://youtu.be/t5azn3nk-NI">
-                                     Video
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file icon"></i>
-                                <a href="bib/query.bib">
-                                     Bib
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="linkify icon"></i> 
-                                <a href="https://doi.org/10.1007/978-3-030-05710-7_21">
-                                    DOI
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i>
-                                <a
-                                    href="https://www.slideshare.net/ShuheiTsuchida/querybydancing-a-dance-music-retrieval-system-based-on-bodymotion-similarity">
-                                     Slide
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i> 
-                                <a href="http://videolectures.net/multimediamodeling2019_tsuchida_query_by_dancing/">
-                                    Talk
-                                </a>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                JPN:
-                            </div>
-
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/query_by_dancing-j.html">
-                                    プロジェクトページ
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i> 
-                                <a href="pdf/wiss_2018.pdf">
-                                    論文
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i> 
-                                <a href="https://youtu.be/t5azn3nk-NI">
-                                   デモ動画
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i> 
-                                <a href="https://www.slideshare.net/ShuheiTsuchida/querybydancing">
-                                  スライド
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a href="https://youtu.be/lfJ_J3_k93A?t=29075">
-                                    発表
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="linkify icon"></i> 
-                                <a href="https://shiropen.com/seamless/query-by-dancing">
-                                    記事
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!--Automatic editing--------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned middle aligned four wide column">
-                        <a href="research/automatic_system.html">
-                            <img class="ui top aligned medium image" src="images/automatic_editing.png">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            多視点ダンス映像のインタラクティブ編集システム
-                        </h2>
-                        <div class="sub header"> <u><b>土田修平</b></u>（産業技術総合研究所）, 深山 覚（産業技術総合研究所）, 後藤真孝（産業技術総合研究所）</div>
-                        <div class="sub header">
-                            <br> 本稿では，自動編集機能を活用することで，動画編集の専門知識がなくとも簡単に魅力的なダンス
-                            動画を作成できる多視点ダンス動画のインタラクティブ編集システムを提案する．ダンサーは，パラメータ を調整することで，自身の目的に応じた動画に自動で編集させることができる．
-                        </div>
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                ENG:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/automatic_system.html">
-                                    Project Page
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/ace2017_preview.pdf">
-                                    Paper
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i> 
-                                <a href="https://youtu.be/HEDfxt7GyLs">
-                                   Video
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file icon"></i>
-                                <a href="bib/automatic.bib">
-                                    Bib
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="linkify icon"></i>
-                                <a href="https://doi.org/10.1007/978-3-319-76270-8_47">
-                                   DOI
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i> 
-                                <a
-                                    href="https://www.slideshare.net/ShuheiTsuchida/automatic-system-for-editing-dance-videos-recorded-using-multiple-cameras">
-                                   Slide
-                                </a>
-                            </div>
-
-                        </div>
-                        <br>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                JPN:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/automatic_system.html">
-                                   プロジェクトページ
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i> 
-                                <a href="https://www.wiss.org/WISS2017Proceedings/oral/08.pdf">
-                                   論文
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i> 
-                                <a href="https://youtu.be/IzhDQhCcnx4">
-                                    デモ動画
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <i class="file outline icon"></i>
-                                <a href="https://www.slideshare.net/ShuheiTsuchida/ss-244937547">
-                                  スライド
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i>
-                                <a href="https://youtu.be/qo3IxAdIi4o?t=18322">
-                                     発表
-                                </a>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <!--Mimebot--------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned middle aligned four wide column">
-                        <a href="research/mimebot.html">
-                            <img class="ui top aligned medium image" src="images/mimebot.png">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            回転移動を模したテクスチャ表示機能をもつ球体型移動ロボット
-                        </h2>
-                        <div class="sub header"><u><b>土田修平</b></u>（神戸大学）, 竹森達也（京都大学）, 寺田 努（神戸大学）, 塚本昌彦（神戸大学）
-                        </div>
-                        <div class="sub header">
-                            <br>
-                            本研究では移動性能の高い車輪型の全方位移動ロボット上に球状LEDディスプレイを搭載し，球体特有の動きを観衆に錯覚させる機能を持つ移動ロボットを提案する．提案システムのプロトタイプを用いた実験結果から，提案手法により球体の転がりを十分に錯視させられ，演出の幅を広げられることが分かった．
-                        </div>
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                ENG:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/mimebot.html">
-                                   Project Page
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/mimebot_preprint.pdf">
-                                    Paper
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://youtu.be/Rxt1xA4fm1U">
-                                   Video
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file icon"></i> 
-                                <a href="bib/mimebot.bib">
-                                    Bib
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="linkify icon"></i>
-                                <a href="https://doi.org/10.1108/IJPCC-01-2017-0006">
-                                    DOI
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i> 
-                                <a
-                                    href="https://www.slideshare.net/ShuheiTsuchida/mimebot-sphereshaped-mobile-robot-imitating-rotational-movement-momm2016-presentation-tsuchida">
-                                   Slide
-                                </a>
-                            </div>
-
-                        </div>
-                        <br>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                JPN:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/mimebot.html">
-                                    プロジェクトページ
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a
-                                    href="https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_action_common_download&item_id=176416&item_no=1&attribute_id=1&file_no=1">
-                                    論文
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://youtu.be/_YF2t0Bg5x4">
-                                    デモ動画
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i> 
-                                <a href="https://www.slideshare.net/ShuheiTsuchida/ss-244947370">
-                                    スライド
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="comment outline icon"></i> 
-                                <a href="https://youtu.be/4ytyRNsyqQ8?t=2411">
-                                   発表
-                                </a>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <!--robotic ball--------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned middle aligned four wide column">
-                        <a href="research/roboticball.html">
-                            <img class="ui top aligned medium image" src="images/roboball.png">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            球体型自走ロボットを用いたダンスパフォーマンス環境の構築
-                        </h2>
-                        <div class="sub header"><u><b>土田修平</b></u>（神戸大学）, 寺田 努（神戸大学）, 塚本昌彦（神戸大学） </div>
-                        <div class="sub header">
-                            <br>
-                            本研究では，パフォーマが自身の動作と移動ロボットの動作の対応を考慮しつつ，インタラクティブにパフォーマンスを作成できる仕組みを構築する．具体的には球体型自走ロボットの動作と，LED
-                            の光という要素を加えたパフォーマンスを自由に作成できるシステムを開発した．システムの有効性を評価するために，3
-                            名のパフォーマに，実際にシステムを利用してパフォーマンスの作成およびパフォーマンスの実演を行ってもらった.
-                        </div>
-
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                ENG:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/roboticball.html">
-                                    Project Page
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/ah2016_preprint.pdf">
-                                    Paper
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i> 
-                                <a href="https://youtu.be/uDZJ3WkOPIY">
-                                    Video
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file icon"></i> 
-                                <a href="bib/roboball.bib">
-                                   Bib
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="linkify icon"></i>
-                                <a href="https://doi.org/10.1145/2875194.2875219">
-                                    DOI
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i>
-                                <a
-                                    href="https://www.slideshare.net/ShuheiTsuchida/a-dance-performance-environment-in-which-performers-dance-with-multiple-robotic-balls-ah2016-presentation-tsuchida">
-                                     Slide
-                                </a>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="ui horizontal list">
-
-                            <div class="item">
-                                JPN:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/roboticball.html">
-                                   プロジェクトページ
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i> 
-                                <a href="https://www.wiss.org/WISS2015Proceedings/oral/17.pdf">
-                                    論文
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i> 
-                                <a href="https://youtu.be/Qxhw2_qt2SM">
-                                   デモ動画
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i>
-                                <a href="https://www.slideshare.net/ShuheiTsuchida/wiss2015-presen">
-                                     スライド
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!--screen---------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned middle aligned four wide column">
-                        <a href="research/screen.html">
-                            <img class="ui top aligned medium image" src="images/screen.png">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            ダンスパフォーマンスにおける自走型スクリーンを用いた隊形練習支援
-                        </h2>
-                        <div class="sub header"><u><b>土田修平</b></u>（神戸大学）, 寺田 努（神戸大学）, 塚本昌彦（神戸大学）</div>
-                        <div class="sub header">
-                            <br> 本研究では，隊形練習において一部のダンサーが欠けてもスムーズに練習を行うための自走型スクリーンを用いたダンス練習支援システムを提案する． システムの提案にあたって，1
-                            人で踊る，自走ロボットと踊る，プロジェクタ映像と踊るの3 つの隊形の練習手法のうち，どれが実際にダンサーと2 人で踊る練習手法の感覚に近いかを調査した．
-                            その結果から，プロジェクタ映像と踊る手法が最も感覚が近く，自走ロボットと踊る手法が最も移動の再現性が高いことを確認した．
-                            これら2 つの手法を組み合わせた隊形練習における一部のダンサーが欠けてもスムーズに練習を行うための自走型スクリーンを用いたダンス練習支援システムを提案した．
-                        </div>
-
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                ENG:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/screen.html">
-                                   Project Page
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="pdf/ah2013.pdf">
-                                    Paper
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://vimeo.com/91144553">
-                                    Video
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file icon"></i>
-                                <a href="bib/screen.bib">
-                                    Bib
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="linkify icon"></i>
-                                <a href="https://doi.org/10.1145/2459236.2459266">
-                                    DOI
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i> 
-                                <a
-                                    href="https://www.slideshare.net/ShuheiTsuchida/a-system-for-practicing-formations-in-dance-performance-supported-by-selfpropelled-screen-20130308-ah2013-shuhei-tsuchida">
-                                    Slide
-                                </a>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                JPN:
-                            </div>
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="research/screen.html">
-                                   プロジェクトページ
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file pdf icon"></i>
-                                <a href="http://www.lib.kobe-u.ac.jp/repository/90005149.pdf">
-                                    論文
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="youtube icon"></i>
-                                <a href="https://vimeo.com/91144313">
-                                    デモ動画
-                                </a>
-                            </div>
-                            <div class="item">
-                                <i class="file outline icon"></i>
-                                <a href="https://www.slideshare.net/ShuheiTsuchida/wiss-2012-tsuchida">
-                                     スライド
-                                </a>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <!-- Works -->
-                <br>
-                <div class="ui divider"></div>
-                <h1 class="ui header">
-                    <i class="archive icon"></i>Works
-                </h1>
-
-                <!--Mimebots---------------------------------------------------------------------------------->
-                <div class="ui divided grid">
-                    <div class="center aligned four wide column">
-                        <a href="works/mimebot.html">
-                            <img class="ui top aligned medium image" src="images/mimebot_p.png">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            Mimebots </h2>
-                        <div class="sub header">
-                            Mimebotは、LEDの光を用いて、観客に球体が回転しているように錯視させることができます。
-                            そのため、Mimebotsは現実的な球体の動きを表現できるだけでなく、物理学の法則と矛盾する動き、たとえば上り坂を転がるように見える動きも表現できます。
-                            また、リアルな球体の動きを用いること、周囲の環境を錯視をさせることもできます。 例えば、壁に衝突したように見せることで、目に見えない壁の存在を表現できます。
-                        </div>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="works/mimebot.html">
-                                     Page
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Permo---------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned four wide column">
-                        <a href="works/roboticball.html">
-                            <img class="ui top aligned medium image" src="images/permo.png">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            PerMo </h2>
-                        <div class="sub header">
-                            新体操、ジャグリング、マジック、フリースタイルフッ トボールやパントマイムといった古典的な身体パフォーマンスに加え、MOVEment、Moon
-                            Beams、Metamorphose(s)、Ballons de baudruche、La danse des
-                            ballonsといった作品で見られるように、身体表現と球体のオブジェクトを組み合わせたパフォーマンスが多くみられる。
-                            これらパフォーマンスにおいて移動ロボットを組み合わせたものを想定し、 新たな機構を搭載した球体型移動ロボットPerMoを作成した。
-                        </div>
-
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                <i class="external alternate icon"></i> 
-                                <a href="works/roboticball.html">
-                                   Page
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!--Other Works---------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned four wide column">
-                        <a href="works/otherworks.html">
-                            <img class="ui top aligned medium image" src="images/others.png">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            Others </h2>
-                        <div class="sub header">
-                            研究とは関係ないところで作った諸々。 </div>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                <i class="external alternate icon"></i> 
-                                <a href="works/otherworks.html">
-                                   Page
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Dance--------------------------------------------------------------------------------->
-                <div class="ui divider"></div>
-                <div class="ui divided grid">
-                    <div class="center aligned four wide column">
-                        <a href="works/dance.html">
-                            <img class="ui top aligned medium image" src="images/dance.png">
-                        </a>
-                    </div>
-                    <div class="twelve wide column">
-                        <h2 class="ui header">
-                            Dance </h2>
-                        <div class="sub header">
-                            ダンス諸々。 </div>
-                        <div class="ui horizontal list">
-                            <div class="item">
-                                <i class="external alternate icon"></i>
-                                <a href="works/dance.html">
-                                     Page
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-
-
+          </div>
+
+          <!-- Research -->
+          <br />
+          <div class="ui divider"></div>
+          <h1 class="ui header"><i class="pen square icon"></i>Research</h1>
+
+          <!--練習・本番--------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned middle aligned four wide column">
+              <img class="ui top aligned medium image" src="images/r_h.png" />
             </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                ダンスパフォーマンスにおけるあがりに弱い人を支援するための動作・生体情報分析
+              </h2>
+              <div class="sub header">
+                <u><b>土田修平</b></u
+                >（神戸大学），大西
+                鮎美（神戸大学），向井香瑛（早稲田大学），渡辺
+                謙（早稲田大学），渡邊 克巳（早稲田大学），寺田
+                努（神戸大学），塚本昌彦（神戸大学）
+              </div>
+              <div class="sub header">
+                <br />
+                本研究では，プレッシャーによって引き起こされる「あがり」に上手く対処できない人を対象としたあがり対処支援システムの構築を目指して，プレッシャーのかかる本番環境とプレッシャーのかからない練習環境におけるダンサーの動作・生体情報を分析する．分析を通してあがりを上手く対処できる人とそうでない人との違いを明らかにし，その違いを埋められるようなあがり対処支援手法について検討する．プレッシャーのかかる本番環境を構築するために，ダンスオーディションを企画し，その審査過程における参加者のさまざまな心身の状態を計測・分析する．
+              </div>
 
+              <div class="ui horizontal list">
+                <div class="item">ENG:</div>
+              </div>
+              <br />
+              <div class="ui horizontal list">
+                <div class="item">JPN:</div>
 
-        </div>
-
-        <div class="ui inverted vertical masthead center aligned segment">
-            <div class="ui container">
-
-                <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450"
-                    style="width:100%;max-width:660px;overflow:hidden;background:transparent;"
-                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-                    src="https://embed.podcasts.apple.com/jp/podcast/dance-science-talk/id1620106201"></iframe>
-            </div>
-        </div>
-
-        <div class="ui inverted vertical footer segment">
-            <div class="ui container">
-                <div class="ui stackable inverted divided equal height
-                        stackable grid">
-                    <div class="seven wide column">
-                        <p><small>©︎2024 Shuhei Tsuchida </small></p>
-                    </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/interactin2023.pdf">
+                    論文(インタラクション2023)
+                  </a>
                 </div>
+
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/Z1-ROz7iaJk"> デモ動画 </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://speakerdeck.com/shuhei2306/dansupahuomansuniokeruagariniruo-iren-wozhi-yuan-surutamenodong-zuo-sheng-ti-qing-bao-fen-xi"
+                  >
+                    スライド
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a
+                    href="https://www.youtube.com/live/bPX4BXhuevs?feature=share&t=319"
+                  >
+                    発表
+                  </a>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <!--自動分割--------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned middle aligned four wide column">
+              <img class="ui top aligned medium image" src="images/08.jpg" />
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                振りの理解を助けるためのダンス動画の自動分割
+              </h2>
+              <div class="sub header">
+                遠藤輝貴（東京大学）、<u><b>土田修平</b></u
+                >（神戸大学）、五十嵐健夫（東京大学）
+              </div>
+              <div class="sub header">
+                <br />
+                本研究ではダンス動画の振りを短時間の動きへと自動で分割する手法を提案する．提案手法では動画中のダンサーのポーズ情報から視覚特徴量を，動画中の音楽から聴覚特徴量をそれぞれ計算し，これらをTemporal
+                Convolutional Network (TCN)
+                に入力して，出力された分割可能性のピークを検出することで動画の分割位置を求める．本論文では提案手法の詳細や実験結果と，自動分割を応用したダンス学習支援システムについて述べる．
+              </div>
+
+              <div class="ui horizontal list">
+                <div class="item">ENG:</div>
+
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/automatic_segmentation.html">
+                    Project Page
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="https://arxiv.org/pdf/2405.19727"> arXiv </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/NZWEfYTH71E"> Video </a>
+                </div>
+                <div class="item">
+                  <i class="file icon"></i>
+
+                  Bib
+                </div>
+                <div class="item">
+                  <i class="linkify icon"></i>
+                  <a href="https://doi.org/10.1145/3658852.3659076"> DOI </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+
+                  Slide
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a href="https://youtu.be/1Z5peVA8uEY"> Talk </a>
+                </div>
+              </div>
+              <br />
+              <div class="ui horizontal list">
+                <div class="item">JPN:</div>
+
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a
+                    href="https://www.wiss.org/WISS2022Proceedings/data/08.pdf"
+                  >
+                    論文(WISS2022)
+                  </a>
+                </div>
+
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a
+                    href="https://www.wiss.org/WISS2022Proceedings/data/08.mp4"
+                  >
+                    デモ動画
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--セルフモデリング--------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned middle aligned four wide column">
+              <a href="research/self-modeling-j.html">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/selfmodeling.png"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                ダンスをマスターした自身の映像を先に見ることによるダンス学習支援
+              </h2>
+              <div class="sub header">
+                <u><b>土田修平</b></u
+                >（神戸大学）, Mao Haomin（神戸大学）, 岡本
+                秀明（ソフトバンク株式会社）, 鈴木 裕真（ソフトバンク株式会社）,
+                金田 麟太郎（ソフトバンク株式会社）, 堀
+                隆之（ソフトバンク株式会社）, 寺田 努（神戸大学）, 塚本
+                昌彦（神戸大学）
+              </div>
+              <div class="sub header">
+                <br />本研究では，プロフェッショナルなダンサーのダンスをマスターして踊る自身の映像を見ながらダンス動作を学習する学習支援手法を提案する．理想的な動作を行う自身の映像を見ることで行動の改善を促す「ビデオセルフモデリング」は，運動技能の学習においても有効とされる．しかし，理想的な動作を行なっている自身の映像を作成するには，多くの時間を割く必要があり手間がかかる．そこで，深層学習による映像生成技術を用いて参照動画中のダンサーの動作と同じ動作を行う学習者自身の映像を自動で生成し，その映像を見ることで学習者の学習を促す．
+              </div>
+
+              <div class="ui horizontal list">
+                <div class="item">ENG:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/self-modeling.html"> Project Page </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/self_modeling.pdf"> Paper </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/TBDORePu_BI"> Demo </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://speakerdeck.com/shuhei2306/dance-practice-system-that-shows-what-you-would-look-like-if-you-could-master-the-dance?slide=36 "
+                  >
+                    Slide
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a href="https://youtu.be/KSJvkNQO10Y"> Talk </a>
+                </div>
+              </div>
+              <br />
+              <div class="ui horizontal list">
+                <div class="item">JPN:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/self-modeling-j.html">
+                    プロジェクトページ
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/hci197.pdf"> 論文 </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/O5aN_cnHZbA"> デモ動画 </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/ss-251340052"
+                  >
+                    スライド
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a href="https://youtu.be/ks041d_NBCQ"> 発表 </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--分離学習--------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned middle aligned four wide column">
+              <a href="research/separated_learning-j.html">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/INT21008.png"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                ダンスステップ学習における分離学習の適用
+              </h2>
+              <div class="sub header">
+                <u><b>土田修平</b></u
+                >（神戸大学）, 寺田 努（神戸大学）, 塚本昌彦（神戸大学）
+              </div>
+              <div class="sub header">
+                <br />我々の研究グループでは，身体を動かさずに情報提示を受けることに集中するフェーズと動作を実施するフェーズの二つに分割して学習を進める「分離学習」という学習方法を提案している．
+                本研究では，身体全体を使ったダンスステップの習得のための情報提示システムを構築し，ダンスステップの習得においても分離学習が適用可能か，また動作の習得難易度によって分離学習の有効性に影響を及ぼすかについて評価した．
+              </div>
+
+              <div class="ui horizontal list">
+                <div class="item">ENG:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/separated_learning.html"> Project Page </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/separated_learning.pdf"> Pre </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/6DwgD0SFQcM"> Video </a>
+                </div>
+                <div class="item">
+                  <i class="file icon"></i>
+                  <a href="bib/separated_learning.bib"> Bib </a>
+                </div>
+                <div class="item">
+                  <i class="linkify icon"></i>
+                  <a href="https://doi.org/10.1007/978-3-031-20436-4_3">
+                    DOI
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://speakerdeck.com/shuhei2306/momm2022-separated-learning"
+                  >
+                    Slide
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a href="https://youtu.be/aFICUnYtS4c"> Talk </a>
+                </div>
+              </div>
+              <br />
+              <div class="ui horizontal list">
+                <div class="item">JPN:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/separated_learning-j.html">
+                    プロジェクトページ
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/Interaction_2021(before_revision).pdf"> 論文 </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/oKdh2UgHaVU"> デモ動画 </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/ss-244910791"
+                  >
+                    スライド
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a href="https://youtu.be/3xWqULVUvq8?t=746"> 発表 </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--未踏AI--------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned middle aligned four wide column">
+              <a href="research/online_lesson-j.html">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/online_lesson.png"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                ダンスレッスンの可能性を拡張する講師ー生徒サポートAIシステムの開発
+              </h2>
+              <div class="sub header">
+                柴崎加奈子, <u><b>土田修平</b></u
+                >（神戸大学）, 清水大地（東京大学）
+              </div>
+              <div class="sub header">
+                <br />
+                COVID-19により、ダンスレッスンもZoom等のオンライン環境により実施されるようになった。一方で、そこでは以下の複数の課題が見受けられることが分かっている。以上の課題を解決するためのダンスレッスンのシステムを構築・提案することにより、複数の生徒に対する細やかな指導、各生徒のペースに合わせた豊かな学習、講師―生徒間のコミュニケーションを取る事も可能となると考えられる。
+                <br />
+                ・生徒間、及び生徒講師間でのコミュニケーションが取りづらい
+                <br />
+                ・一人一人に指導が行き届かず、従来の対面レッスンのような細やかな指導がしづらい
+              </div>
+
+              <div class="ui horizontal list">
+                <div class="item">ENG:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/online_lesson.html"> Project Page </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/online_lesson.pdf"> Paper </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://speakerdeck.com/shuhei2306/online-dance-lesson-support-system-using-flipped-classroom"
+                  >
+                    Slide
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a href="https://youtu.be/VhOubwYNzpc"> Talk </a>
+                </div>
+              </div>
+              <br />
+              <div class="ui horizontal list">
+                <div class="item">JPN:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/online_lesson-j.html">
+                    プロジェクトページ
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/20210108.pdf"> 論文 </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/5M3Hipn7rJ8"> デモ動画 </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/ai-244881201"
+                  >
+                    スライド
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a href="https://youtu.be/h46t7hZfDOA"> 発表 </a>
+                </div>
+
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a href="https://youtu.be/JtBjBQ-pvMI"> 成果報告 </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--モーション可視化--------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned middle aligned four wide column">
+              <img
+                class="ui top aligned medium image"
+                src="images/visualization.png"
+              />
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                ダンスモーションの反復練習とその上達過程の可視化
+              </h2>
+              <div class="sub header">
+                川西真美（お茶の水女子大学）, <u><b>土田修平</b></u
+                >（神戸大学）, 伊藤貴之（お茶の水女子大学）
+              </div>
+              <div class="sub header">
+                <br />我々は，同一のダンスを反復的に練習した際の動作の差異や変化を可視化することで，ダンスのスキル向上に寄与する可視化システムを開発している．本手法では，同一人物による同一のダンスの練習を複数回計測する．そして各モーションに対して，動作のタイミングを揃える時間補正，ダンサーの位置や身体の向きを揃える空間補正を適用する．講師による模範動作も計測されている場合には，ダンサーと講師の間の体格差を補正する体格補正も適用する．続いて補正後の各モーションを構成する手足などのパーツに対してクラスタリングを適用し，クラスタリング結果を可視化する．ユーザはその可視化結果にもとづいて任意の複数のモーションを選んで，これらをアニメーション表示することで，ダンサーの動作の差異や変化を確認することができる．
+              </div>
+
+              <div class="ui horizontal list">
+                <div class="item">ENG:</div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/ItotRICPE160.pdf"> IV2023 </a>
+                </div>
+              </div>
+              <br />
+              <div class="ui horizontal list">
+                <div class="item">JPN:</div>
+
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/3-B05.pdf"> WISS2022 </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="http://id.nii.ac.jp/1001/00219033/"> HCI199 </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a
+                    href="http://www.interaction-ipsj.org/proceedings/2022/data/pdf/2P04.pdf"
+                  >
+                    インタラクション2022
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a
+                    href="https://www.wiss.org/WISS2021Proceedings/data/1-B04.pdf"
+                  >
+                    WISS2021
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a
+                    href="https://www.interaction-ipsj.org/proceedings/2021/data/pdf/1Q07.pdf"
+                  >
+                    インタラクション2021
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Dance Unisoner--------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned middle aligned four wide column">
+              <a href="research/danceunisoner-j.html">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/DanceUnisoner.jpg"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                DanceUnisoner:
+                グループダンスパフォーマンス動画作成インタフェース
+              </h2>
+              <div class="sub header">
+                <u><b>土田修平</b></u
+                >（産業技術総合研究所）, 深山 覚（産業技術総合研究所）,
+                後藤真孝（産業技術総合研究所）
+              </div>
+              <div class="sub header">
+                <br />
+                複数人でのダンスのイメージを振付師1人でも検討・確認・共有できるグループダンスパフォーマンス動画作成インタフェース
+                DanceUnisoner を開発した． DanceUnisoner
+                では，ダンサー1人が踊っているダンス動画をコピー&ペーストの要領で三次元空間に配置していくことで，グループダンスの動画を手軽に作成できる．
+                グループダンスの人数や配置，向き，大きさ，時間ずれを一括で容易に変更できるシンプルなGUIを備える．
+              </div>
+
+              <div class="ui horizontal list">
+                <div class="item">ENG:</div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/b90PPKLvANA"> Video </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/danceunisoner_submit_ver.pdf"> Paper </a>
+                </div>
+                <div class="item">
+                  <i class="linkify icon"></i>
+                  <a href="https://doi.org/10.1587/transinf.2023EDP7063">
+                    DOI
+                  </a>
+                </div>
+              </div>
+              <br />
+              <div class="ui horizontal list">
+                <div class="item">JPN:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/danceunisoner-j.html">
+                    プロジェクトページ
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="https://www.wiss.org/WISS2019Proceedings/oral/1.pdf">
+                    論文
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/b90PPKLvANA"> デモ動画 </a>
+                </div>
+
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/danceunisoner"
+                  >
+                    スライド
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a href="https://youtu.be/u9ozqzyyqCE?t=10158"> 発表 </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--AIST Dance DB--------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned middle aligned four wide column">
+              <a href="https://aistdancedb.ongaaccel.jp/">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/black_title.png"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                AIST Dance Video
+                Database:ダンス情報処理研究のためのストリートダンス動画データベース
+              </h2>
+              <div class="sub header">
+                <u><b>土田修平</b></u
+                >（産業技術総合研究所）, 深山 覚（産業技術総合研究所）,
+                濱崎雅弘（産業技術総合研究所）, 後藤真孝（産業技術総合研究所）
+              </div>
+              <div class="sub header">
+                <br />
+                産総研ダンスビデオデータベースは、著作権をクリアした60曲の楽曲と13940本のストリートダンスビデオを含む大規模データベースです。
+                ダンスモーション分類やダンサー識別などのダンス情報処理の研究を促進させます。
+              </div>
+
+              <div class="ui horizontal list">
+                <div class="item">ENG:</div>
+                <div class="item">
+                  <i class="database icon"></i>
+                  <a href="https://aistdancedb.ongaaccel.jp/">
+                    AIST Dance Video Database
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a
+                    href="http://archives.ismir.net/ismir2019/paper/000060.pdf"
+                  >
+                    Paper
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/ismir_poster_v4.pdf"> Poster </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/dpE3H10F0cY"> Video </a>
+                </div>
+                <div class="item">
+                  <i class="file icon"></i>
+                  <a href="bib/aistdancedb.bib"> Bib </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/aist-dance-video-database-multigenre-multidancer-and-multicamera-database-for-dance-information-processing-244912762"
+                  >
+                    Slide
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a
+                    href="https://collegerama.tudelft.nl/Mediasite/Showcase/ismir2019/Presentation/7e4c2c64e23249e9830bd446866a011b1d"
+                  >
+                    Talk
+                  </a>
+                </div>
+              </div>
+              <br />
+              <div class="ui horizontal list">
+                <div class="item">JPN:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/aistdancedb-j.html"> プロジェクトページ </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/014346.pdf"> 論文 </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/aist-dance-video-database"
+                  >
+                    スライド
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a href="https://live.nicovideo.jp/watch/lv324368232">
+                    発表
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Query by dancing--------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned middle aligned four wide column">
+              <a href="research/query_by_dancing-j.html">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/query_by_d.png"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                Query-by-Dancing: 身体動作の類似性に基づくダンス楽曲検索システム
+              </h2>
+              <div class="sub header">
+                <u><b>土田修平</b></u
+                >（産業技術総合研究所）, 深山 覚（産業技術総合研究所）,
+                後藤真孝（産業技術総合研究所）
+              </div>
+              <div class="sub header">
+                <br />ダンス動画データベース中を検索するためのクエリとして，ユーザのダンス動作を用いるQuery-by-Dancingを開発した．
+                このシステムは，クエリであるダンスに含まれるポーズ（姿勢）とモーション（動作）を抽出し，それらに類似したポーズとモーションが含まれるダンス動画を検索する．
+                得られたダンス動画に付随する楽曲を用いることで，自分のダンスに適した楽曲を検索できる．
+              </div>
+
+              <div class="ui horizontal list">
+                <div class="item">ENG:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/query_by_dancing-e.html"> Project Page </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/mmm-query-by-dancing.pdf"> Paper </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/t5azn3nk-NI"> Video </a>
+                </div>
+                <div class="item">
+                  <i class="file icon"></i>
+                  <a href="bib/query.bib"> Bib </a>
+                </div>
+                <div class="item">
+                  <i class="linkify icon"></i>
+                  <a href="https://doi.org/10.1007/978-3-030-05710-7_21">
+                    DOI
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/querybydancing-a-dance-music-retrieval-system-based-on-bodymotion-similarity"
+                  >
+                    Slide
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a
+                    href="http://videolectures.net/multimediamodeling2019_tsuchida_query_by_dancing/"
+                  >
+                    Talk
+                  </a>
+                </div>
+              </div>
+              <br />
+              <div class="ui horizontal list">
+                <div class="item">JPN:</div>
+
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/query_by_dancing-j.html">
+                    プロジェクトページ
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/wiss_2018.pdf"> 論文 </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/t5azn3nk-NI"> デモ動画 </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/querybydancing"
+                  >
+                    スライド
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a href="https://youtu.be/lfJ_J3_k93A?t=29075"> 発表 </a>
+                </div>
+                <div class="item">
+                  <i class="linkify icon"></i>
+                  <a href="https://shiropen.com/seamless/query-by-dancing">
+                    記事
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Automatic editing--------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned middle aligned four wide column">
+              <a href="research/automatic_system.html">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/automatic_editing.png"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                多視点ダンス映像のインタラクティブ編集システム
+              </h2>
+              <div class="sub header">
+                <u><b>土田修平</b></u
+                >（産業技術総合研究所）, 深山 覚（産業技術総合研究所）,
+                後藤真孝（産業技術総合研究所）
+              </div>
+              <div class="sub header">
+                <br />
+                本稿では，自動編集機能を活用することで，動画編集の専門知識がなくとも簡単に魅力的なダンス
+                動画を作成できる多視点ダンス動画のインタラクティブ編集システムを提案する．ダンサーは，パラメータ
+                を調整することで，自身の目的に応じた動画に自動で編集させることができる．
+              </div>
+
+              <div class="ui horizontal list">
+                <div class="item">ENG:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/automatic_system.html"> Project Page </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/ace2017_preview.pdf"> Paper </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/HEDfxt7GyLs"> Video </a>
+                </div>
+                <div class="item">
+                  <i class="file icon"></i>
+                  <a href="bib/automatic.bib"> Bib </a>
+                </div>
+                <div class="item">
+                  <i class="linkify icon"></i>
+                  <a href="https://doi.org/10.1007/978-3-319-76270-8_47">
+                    DOI
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/automatic-system-for-editing-dance-videos-recorded-using-multiple-cameras"
+                  >
+                    Slide
+                  </a>
+                </div>
+              </div>
+              <br />
+              <div class="ui horizontal list">
+                <div class="item">JPN:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/automatic_system.html">
+                    プロジェクトページ
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a
+                    href="https://www.wiss.org/WISS2017Proceedings/oral/08.pdf"
+                  >
+                    論文
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/IzhDQhCcnx4"> デモ動画 </a>
+                </div>
+
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/ss-244937547"
+                  >
+                    スライド
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a href="https://youtu.be/qo3IxAdIi4o?t=18322"> 発表 </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Mimebot--------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned middle aligned four wide column">
+              <a href="research/mimebot.html">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/mimebot.png"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                回転移動を模したテクスチャ表示機能をもつ球体型移動ロボット
+              </h2>
+              <div class="sub header">
+                <u><b>土田修平</b></u
+                >（神戸大学）, 竹森達也（京都大学）, 寺田 努（神戸大学）,
+                塚本昌彦（神戸大学）
+              </div>
+              <div class="sub header">
+                <br />
+                本研究では移動性能の高い車輪型の全方位移動ロボット上に球状LEDディスプレイを搭載し，球体特有の動きを観衆に錯覚させる機能を持つ移動ロボットを提案する．提案システムのプロトタイプを用いた実験結果から，提案手法により球体の転がりを十分に錯視させられ，演出の幅を広げられることが分かった．
+              </div>
+
+              <div class="ui horizontal list">
+                <div class="item">ENG:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/mimebot.html"> Project Page </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/mimebot_preprint.pdf"> Paper </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/Rxt1xA4fm1U"> Video </a>
+                </div>
+                <div class="item">
+                  <i class="file icon"></i>
+                  <a href="bib/mimebot.bib"> Bib </a>
+                </div>
+                <div class="item">
+                  <i class="linkify icon"></i>
+                  <a href="https://doi.org/10.1108/IJPCC-01-2017-0006"> DOI </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/mimebot-sphereshaped-mobile-robot-imitating-rotational-movement-momm2016-presentation-tsuchida"
+                  >
+                    Slide
+                  </a>
+                </div>
+              </div>
+              <br />
+              <div class="ui horizontal list">
+                <div class="item">JPN:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/mimebot.html"> プロジェクトページ </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a
+                    href="https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_action_common_download&item_id=176416&item_no=1&attribute_id=1&file_no=1"
+                  >
+                    論文
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/_YF2t0Bg5x4"> デモ動画 </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/ss-244947370"
+                  >
+                    スライド
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="comment outline icon"></i>
+                  <a href="https://youtu.be/4ytyRNsyqQ8?t=2411"> 発表 </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--robotic ball--------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned middle aligned four wide column">
+              <a href="research/roboticball.html">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/roboball.png"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                球体型自走ロボットを用いたダンスパフォーマンス環境の構築
+              </h2>
+              <div class="sub header">
+                <u><b>土田修平</b></u
+                >（神戸大学）, 寺田 努（神戸大学）, 塚本昌彦（神戸大学）
+              </div>
+              <div class="sub header">
+                <br />
+                本研究では，パフォーマが自身の動作と移動ロボットの動作の対応を考慮しつつ，インタラクティブにパフォーマンスを作成できる仕組みを構築する．具体的には球体型自走ロボットの動作と，LED
+                の光という要素を加えたパフォーマンスを自由に作成できるシステムを開発した．システムの有効性を評価するために，3
+                名のパフォーマに，実際にシステムを利用してパフォーマンスの作成およびパフォーマンスの実演を行ってもらった.
+              </div>
+
+              <div class="ui horizontal list">
+                <div class="item">ENG:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/roboticball.html"> Project Page </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/ah2016_preprint.pdf"> Paper </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/uDZJ3WkOPIY"> Video </a>
+                </div>
+                <div class="item">
+                  <i class="file icon"></i>
+                  <a href="bib/roboball.bib"> Bib </a>
+                </div>
+                <div class="item">
+                  <i class="linkify icon"></i>
+                  <a href="https://doi.org/10.1145/2875194.2875219"> DOI </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/a-dance-performance-environment-in-which-performers-dance-with-multiple-robotic-balls-ah2016-presentation-tsuchida"
+                  >
+                    Slide
+                  </a>
+                </div>
+              </div>
+              <br />
+              <div class="ui horizontal list">
+                <div class="item">JPN:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/roboticball.html"> プロジェクトページ </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a
+                    href="https://www.wiss.org/WISS2015Proceedings/oral/17.pdf"
+                  >
+                    論文
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://youtu.be/Qxhw2_qt2SM"> デモ動画 </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/wiss2015-presen"
+                  >
+                    スライド
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--screen---------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned middle aligned four wide column">
+              <a href="research/screen.html">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/screen.png"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">
+                ダンスパフォーマンスにおける自走型スクリーンを用いた隊形練習支援
+              </h2>
+              <div class="sub header">
+                <u><b>土田修平</b></u
+                >（神戸大学）, 寺田 努（神戸大学）, 塚本昌彦（神戸大学）
+              </div>
+              <div class="sub header">
+                <br />
+                本研究では，隊形練習において一部のダンサーが欠けてもスムーズに練習を行うための自走型スクリーンを用いたダンス練習支援システムを提案する．
+                システムの提案にあたって，1
+                人で踊る，自走ロボットと踊る，プロジェクタ映像と踊るの3
+                つの隊形の練習手法のうち，どれが実際にダンサーと2
+                人で踊る練習手法の感覚に近いかを調査した．
+                その結果から，プロジェクタ映像と踊る手法が最も感覚が近く，自走ロボットと踊る手法が最も移動の再現性が高いことを確認した．
+                これら2
+                つの手法を組み合わせた隊形練習における一部のダンサーが欠けてもスムーズに練習を行うための自走型スクリーンを用いたダンス練習支援システムを提案した．
+              </div>
+
+              <div class="ui horizontal list">
+                <div class="item">ENG:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/screen.html"> Project Page </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="pdf/ah2013.pdf"> Paper </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://vimeo.com/91144553"> Video </a>
+                </div>
+                <div class="item">
+                  <i class="file icon"></i>
+                  <a href="bib/screen.bib"> Bib </a>
+                </div>
+                <div class="item">
+                  <i class="linkify icon"></i>
+                  <a href="https://doi.org/10.1145/2459236.2459266"> DOI </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/a-system-for-practicing-formations-in-dance-performance-supported-by-selfpropelled-screen-20130308-ah2013-shuhei-tsuchida"
+                  >
+                    Slide
+                  </a>
+                </div>
+              </div>
+              <br />
+              <div class="ui horizontal list">
+                <div class="item">JPN:</div>
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="research/screen.html"> プロジェクトページ </a>
+                </div>
+                <div class="item">
+                  <i class="file pdf icon"></i>
+                  <a href="http://www.lib.kobe-u.ac.jp/repository/90005149.pdf">
+                    論文
+                  </a>
+                </div>
+                <div class="item">
+                  <i class="youtube icon"></i>
+                  <a href="https://vimeo.com/91144313"> デモ動画 </a>
+                </div>
+                <div class="item">
+                  <i class="file outline icon"></i>
+                  <a
+                    href="https://www.slideshare.net/ShuheiTsuchida/wiss-2012-tsuchida"
+                  >
+                    スライド
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Works -->
+          <br />
+          <div class="ui divider"></div>
+          <h1 class="ui header"><i class="archive icon"></i>Works</h1>
+
+          <!--Mimebots---------------------------------------------------------------------------------->
+          <div class="ui divided grid">
+            <div class="center aligned four wide column">
+              <a href="works/mimebot.html">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/mimebot_p.png"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">Mimebots</h2>
+              <div class="sub header">
+                Mimebotは、LEDの光を用いて、観客に球体が回転しているように錯視させることができます。
+                そのため、Mimebotsは現実的な球体の動きを表現できるだけでなく、物理学の法則と矛盾する動き、たとえば上り坂を転がるように見える動きも表現できます。
+                また、リアルな球体の動きを用いること、周囲の環境を錯視をさせることもできます。
+                例えば、壁に衝突したように見せることで、目に見えない壁の存在を表現できます。
+              </div>
+              <div class="ui horizontal list">
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="works/mimebot.html"> Page </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Permo---------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned four wide column">
+              <a href="works/roboticball.html">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/permo.png"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">PerMo</h2>
+              <div class="sub header">
+                新体操、ジャグリング、マジック、フリースタイルフッ
+                トボールやパントマイムといった古典的な身体パフォーマンスに加え、MOVEment、Moon
+                Beams、Metamorphose(s)、Ballons de baudruche、La danse des
+                ballonsといった作品で見られるように、身体表現と球体のオブジェクトを組み合わせたパフォーマンスが多くみられる。
+                これらパフォーマンスにおいて移動ロボットを組み合わせたものを想定し、
+                新たな機構を搭載した球体型移動ロボットPerMoを作成した。
+              </div>
+
+              <div class="ui horizontal list">
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="works/roboticball.html"> Page </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Other Works---------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned four wide column">
+              <a href="works/otherworks.html">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/others.png"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">Others</h2>
+              <div class="sub header">研究とは関係ないところで作った諸々。</div>
+              <div class="ui horizontal list">
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="works/otherworks.html"> Page </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Dance--------------------------------------------------------------------------------->
+          <div class="ui divider"></div>
+          <div class="ui divided grid">
+            <div class="center aligned four wide column">
+              <a href="works/dance.html">
+                <img
+                  class="ui top aligned medium image"
+                  src="images/dance.png"
+                />
+              </a>
+            </div>
+            <div class="twelve wide column">
+              <h2 class="ui header">Dance</h2>
+              <div class="sub header">ダンス諸々。</div>
+              <div class="ui horizontal list">
+                <div class="item">
+                  <i class="external alternate icon"></i>
+                  <a href="works/dance.html"> Page </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="ui inverted vertical masthead center aligned segment">
+        <div class="ui container">
+          <iframe
+            allow="autoplay *; encrypted-media *; fullscreen *"
+            frameborder="0"
+            height="450"
+            style="
+              width: 100%;
+              max-width: 660px;
+              overflow: hidden;
+              background: transparent;
+            "
+            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+            src="https://embed.podcasts.apple.com/jp/podcast/dance-science-talk/id1620106201"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="ui inverted vertical footer segment">
+        <div class="ui container">
+          <div
+            class="ui stackable inverted divided equal height stackable grid"
+          >
+            <div class="seven wide column">
+              <p><small>©︎2024 Shuhei Tsuchida </small></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
     <script>
-        $(document).ready(function () {
-            // fix menu when passed
-            $(".masthead").visibility({
-                once: false,
-                onBottomPassed: function () {
-                    $(".fixed.menu").transition("fade in");
-                },
-                onBottomPassedReverse: function () {
-                    $(".fixed.menu").transition("fade out");
-                }
-            });
-
-            // create sidebar and attach to menu open
-            $(".ui.sidebar").sidebar("attach events", ".toc.item");
-
-            $('.ui.menu .ui.dropdown').dropdown({
-                on: 'hover'
-            });
-            $('.ui.menu a.item')
-                .on('click', function () {
-                    $(this)
-                        .addClass('active')
-                        .siblings()
-                        .removeClass('active');
-                });
+      $(document).ready(function () {
+        // fix menu when passed
+        $(".masthead").visibility({
+          once: false,
+          onBottomPassed: function () {
+            $(".fixed.menu").transition("fade in");
+          },
+          onBottomPassedReverse: function () {
+            $(".fixed.menu").transition("fade out");
+          },
         });
-    </script>
-</body>
 
+        // create sidebar and attach to menu open
+        $(".ui.sidebar").sidebar("attach events", ".toc.item");
+
+        $(".ui.menu .ui.dropdown").dropdown({
+          on: "hover",
+        });
+        $(".ui.menu a.item").on("click", function () {
+          $(this).addClass("active").siblings().removeClass("active");
+        });
+      });
+    </script>
+  </body>
 </html>
